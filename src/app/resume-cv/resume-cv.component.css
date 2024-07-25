@@ -1,0 +1,6 @@
+pdf-viewer {
+  display: flex;
+  align-self: center;
+  width: 100vw;
+  height: 100vh;
+}

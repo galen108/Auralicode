@@ -1,0 +1,12 @@
+<h3>RESUME/CV</h3>
+<div style='position: relative; height: 100%;'>
+  <pdf-viewer src="assets/Galen-Tenney_Resume.pdf"
+            [show-all]="true"
+            [autoresize]="true"
+            [original-size]='true'
+            [fit-to-page]='true'
+            [render-text]='false'
+            (page-rendered)="pageRendered()"
+>
+</pdf-viewer>
+</div>

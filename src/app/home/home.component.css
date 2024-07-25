@@ -1,0 +1,12 @@
+img {
+  display: block;
+  align-self: center;
+  width: 100%;
+  height: auto;
+}
+
+p {
+  display: block;
+  align-content: center;
+  padding: 12px;
+}
