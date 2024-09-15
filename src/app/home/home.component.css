@@ -1,12 +1,15 @@
 img {
-  display: block;
-  align-self: center;
+  display: flex;
+  align-items: center;
   width: 100%;
   height: auto;
 }
 
-p {
-  display: block;
-  align-content: center;
-  padding: 12px;
+#home {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 80%;
+  padding: 2px;
+  align-items: center;
+  justify-items: center;
 }

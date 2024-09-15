@@ -1,3 +1,74 @@
+#tech-list-container {
+  display: flex;
+}
+#tech-list-container1 {
+  display: flex;
+}
+#tech-list-container2 {
+  display: flex;
+}
+#tech-list-container3 {
+  display: flex;
+}
+#tech-list-container4 {
+   display: flex;
+}
+#tech-list-container5 {
+    display: flex;
+}
+img {
+  display: block;
+  max-width:230px;
+  max-height:230px;
+  width: auto;
+  height: auto;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  padding: 0;
+}
+#tech-list1 {
+  align-items: center;
+}
+#tech-list2 {
+  align-items: center;
+}
+#angularcli-list {
+  align-items: center;
+}
+#bootstrap-list {
+  align-items: center;
+}
+#express-list {
+  align-items: center;
+}
+#html5boilerplate-list {
+  align-items: center;
+}
+#nextjs-list {
+  align-items: center;
+}
+#nodejs-list {
+  align-items: center;
+}
+#react-list {
+  align-items: center;
+}
+#reactnative-list {
+  align-items: center;
+}
+#vite-list {
+  align-items: center;
+}
+#vuejs-list {
+  align-items: center;
+}
+li {
+  padding: 2px;
+}
 p {
   display: flex;
   align-items: center;
