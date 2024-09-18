@@ -1,3 +1,27 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: cadetblue;
+  justify-content: center;
+  align-items: center;
+}
+.body {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: cadetblue;
+  justify-content: center;
+  align-items: center;
+}
+.body #text {
+  align-self: center;
+  text-align: center;
+  font-size: x-large;
+  width: 480px;
+  height: auto;
+  margin: 1em;
+}
 #tech-list-container {
   display: flex;
 }
@@ -18,8 +42,8 @@
 }
 img {
   display: block;
-  max-width:230px;
-  max-height:230px;
+  max-width:220px;
+  max-height:220px;
   width: auto;
   height: auto;
 }
@@ -68,9 +92,4 @@ ul {
 }
 li {
   padding: 2px;
-}
-p {
-  display: flex;
-  align-items: center;
-  padding: 12px;
 }

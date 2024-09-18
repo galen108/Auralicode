@@ -1,12 +1,37 @@
-img {
-  display: block;
-  align-items: center;
-  width: 400px;
+.header {
+  display: flex;
+  width: 100%;
   height: auto;
-  padding: 12px;
-}
-p {
-  display: block;
+  background-color: cadetblue;
+  justify-content: center;
   align-items: center;
-  padding: 12px;
+}
+.graphic {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: cadetblue;
+  justify-content: center;
+  align-items: center;
+}
+.graphic #portrait {
+  align-self: center;
+  width: auto;
+  height: 480px;
+}
+.body {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: cadetblue;
+  justify-content: center;
+  align-items: center;
+}
+.body #text {
+  align-self: center;
+  text-align: center;
+  font-size: x-large;
+  width: 480px;
+  height: auto;
+  margin: 1em;
 }

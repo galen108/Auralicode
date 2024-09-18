@@ -1,3 +1,19 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: cadetblue;
+  justify-content: center;
+  align-items: center;
+}
+.resume {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: cadetblue;
+  justify-content: center;
+  align-items: center;
+}
 pdf-viewer {
   display: flex;
   align-self: center;
