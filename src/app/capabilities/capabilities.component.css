@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   height: auto;
-  background-color: cadetblue;
+  background-color: linen;
   justify-content: center;
   align-items: center;
 }
@@ -10,40 +10,46 @@
   display: flex;
   width: 100%;
   height: auto;
-  background-color: cadetblue;
+  background-color: linen;
   justify-content: center;
   align-items: center;
 }
-.body #text {
+.body p {
   align-self: center;
   text-align: center;
-  font-size: x-large;
+  font-size: large;
   width: 480px;
   height: auto;
   margin: 1em;
 }
 #tech-list-container {
   display: flex;
+  font-size: large;
 }
 #tech-list-container1 {
   display: flex;
+  font-size: large;
 }
 #tech-list-container2 {
   display: flex;
+  font-size: large;
 }
 #tech-list-container3 {
   display: flex;
+  font-size: large;
 }
 #tech-list-container4 {
    display: flex;
+  font-size: large;
 }
 #tech-list-container5 {
     display: flex;
+  font-size: large;
 }
 img {
   display: block;
-  max-width:220px;
-  max-height:220px;
+  max-width:200px;
+  max-height:200px;
   width: auto;
   height: auto;
 }
@@ -62,33 +68,43 @@ ul {
 }
 #angularcli-list {
   align-items: center;
+  font-size: large;
 }
 #bootstrap-list {
   align-items: center;
+  font-size: large;
 }
 #express-list {
   align-items: center;
+  font-size: large;
 }
 #html5boilerplate-list {
   align-items: center;
+  font-size: large;
 }
 #nextjs-list {
   align-items: center;
+  font-size: large;
 }
 #nodejs-list {
   align-items: center;
+  font-size: large;
 }
 #react-list {
   align-items: center;
+  font-size: large;
 }
 #reactnative-list {
   align-items: center;
+  font-size: large;
 }
 #vite-list {
   align-items: center;
+  font-size: large;
 }
 #vuejs-list {
   align-items: center;
+  font-size: large;
 }
 li {
   padding: 2px;

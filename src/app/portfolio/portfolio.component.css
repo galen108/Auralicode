@@ -2,7 +2,7 @@
   display: flex;
   width: 100%;
   height: auto;
-  background-color: cadetblue;
+  background-color: linen;
   justify-content: center;
   align-items: center;
 }
@@ -11,7 +11,7 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  background-color: cadetblue;
+  background-color: linen;
   justify-content: center;
   align-items: center;
 }
@@ -22,8 +22,8 @@ img {
 p {
   align-self: center;
   text-align: center;
-  font-size: x-large;
-  width: 480px;
+  font-size: large;
+  width: 600px;
   height: auto;
   margin: 1em;
 }
