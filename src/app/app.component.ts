@@ -9,8 +9,10 @@ import { MatIconModule } from '@angular/material/icon';
 import {HomeComponent} from "./home/home.component";
 import {AboutComponent} from "./about/about.component";
 import {CapabilitiesComponent} from "./capabilities/capabilities.component";
+import {ServicesComponent} from "./services/services.component";
 import {PortfolioComponent} from "./portfolio/portfolio.component";
 import {ResumeCvComponent} from "./resume-cv/resume-cv.component";
+import {ContactComponent} from "./contact/contact.component";
 import {BreakpointObserver, Breakpoints} from "@angular/cdk/layout";
 import {Observable} from "rxjs";
 import {map, shareReplay} from "rxjs/operators";
@@ -33,8 +35,10 @@ import {PdfViewerModule} from "ng2-pdf-viewer";
     HomeComponent,
     AboutComponent,
     CapabilitiesComponent,
+    ServicesComponent,
     PortfolioComponent,
     ResumeCvComponent,
+    ContactComponent,
     PdfViewerModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
