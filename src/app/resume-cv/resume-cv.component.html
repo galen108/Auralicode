@@ -5,65 +5,78 @@
     </div>
   </mat-card-header>
   <mat-card-content>
-    <mat-expansion-panel hideToggle>
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          1-Page Resume/CV
-        </mat-panel-title>
-        <mat-panel-description>
-          Formatted for Directness
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-      <div class="resume" style='position: relative; height: 100%;'>
-        <pdf-viewer src="assets/Galen-Tenney-Resume.pdf"
+    <div class="body">
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            1-Page Resume/CV
+          </mat-panel-title>
+          <mat-panel-description>
+            Formatted for Directness
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="resume" style='position: relative; height: 100%;'>
+          <pdf-viewer src="assets/Galen-Tenney-Resume.pdf"
                     [show-all]="true"
                     [autoresize]="true"
                     [original-size]='true'
                     [fit-to-page]='true'
                     [render-text]='false'
                     (page-rendered)="pageRendered()">
-        </pdf-viewer>
-      </div>
-    </mat-expansion-panel>
-    <mat-expansion-panel hideToggle>
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          2-Page Resume/CV
-        </mat-panel-title>
-        <mat-panel-description>
-          Formatted for Balance
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-      <div class="resume" style='position: relative; height: 100%;'>
-        <pdf-viewer src="assets/Galen-Tenney_Resume.pdf"
+          </pdf-viewer>
+        </div>
+      </mat-expansion-panel>
+    </div>
+    <div class="body">
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            2-Page Resume/CV
+          </mat-panel-title>
+          <mat-panel-description>
+            Formatted for Balance
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="resume" style='position: relative; height: 100%;'>
+          <pdf-viewer src="assets/Galen-Tenney_Resume.pdf"
                     [show-all]="true"
                     [autoresize]="true"
                     [original-size]='true'
                     [fit-to-page]='true'
                     [render-text]='false'
                     (page-rendered)="pageRendered()">
-        </pdf-viewer>
-      </div>
-    </mat-expansion-panel>
-    <mat-expansion-panel hideToggle>
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          5-Page Resume/CV
-        </mat-panel-title>
-        <mat-panel-description>
-          Formatted for Depth
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-      <div class="resume" style='position: relative; height: 100%;'>
-        <pdf-viewer src="assets/Galen_W_Tenney_Resume.pdf"
+          </pdf-viewer>
+        </div>
+      </mat-expansion-panel>
+    </div>
+    <div class="body">
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            5-Page Resume/CV
+          </mat-panel-title>
+          <mat-panel-description>
+            Formatted for Depth
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <div class="resume" style='position: relative; height: 100%;'>
+          <pdf-viewer src="assets/Galen_W_Tenney_Resume.pdf"
                     [show-all]="true"
                     [autoresize]="true"
                     [original-size]='true'
                     [fit-to-page]='true'
                     [render-text]='false'
                     (page-rendered)="pageRendered()">
-        </pdf-viewer>
+          </pdf-viewer>
+        </div>
+      </mat-expansion-panel>
+    </div>
+      <mat-card-footer>
+      <div class="body">
+        <p id="footer">
+          Copyright © 2024 Galen W. Tenney. All rights reserved. Auralicode was developed with Angular.
+        </p>
       </div>
-    </mat-expansion-panel>
+    </mat-card-footer>
   </mat-card-content>
 </mat-card>

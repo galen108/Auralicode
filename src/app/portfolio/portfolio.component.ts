@@ -1,15 +1,16 @@
 import { Component } from '@angular/core';
-import {MatCard, MatCardHeader, MatCardContent, MatCardImage} from "@angular/material/card";
+import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} from "@angular/material/card";
 
 @Component({
   selector: 'app-portfolio',
   standalone: true,
-  imports: [
-    MatCard,
-    MatCardHeader,
-    MatCardContent,
-    MatCardImage
-  ],
+    imports: [
+        MatCard,
+        MatCardHeader,
+        MatCardContent,
+        MatCardImage,
+        MatCardFooter
+    ],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.css'
 })

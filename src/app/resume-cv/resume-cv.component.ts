@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {MatCard, MatCardContent, MatCardHeader} from "@angular/material/card";
+import {MatCard, MatCardContent, MatCardFooter, MatCardHeader} from "@angular/material/card";
 import {MatExpansionPanel, MatExpansionPanelHeader, MatExpansionPanelTitle, MatExpansionPanelDescription} from "@angular/material/expansion";
 import {PdfViewerModule} from "ng2-pdf-viewer";
 
@@ -15,7 +15,8 @@ import {PdfViewerModule} from "ng2-pdf-viewer";
         MatExpansionPanelHeader,
         MatExpansionPanelTitle,
         MatExpansionPanelDescription,
-        PdfViewerModule
+        PdfViewerModule,
+        MatCardFooter
     ],
   templateUrl: './resume-cv.component.html',
   styleUrl: './resume-cv.component.css'
