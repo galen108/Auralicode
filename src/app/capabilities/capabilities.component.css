@@ -94,6 +94,10 @@ ul {
   align-items: center;
   font-size: large;
 }
+#jquery-list {
+  align-items: center;
+  font-size: large;
+}
 #nextjs-list {
   align-items: center;
   font-size: large;
@@ -115,6 +119,10 @@ ul {
   font-size: large;
 }
 #vuejs-list {
+  align-items: center;
+  font-size: large;
+}
+#wordpress-list {
   align-items: center;
   font-size: large;
 }
