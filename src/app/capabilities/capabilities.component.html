@@ -30,176 +30,58 @@
       <p>Each of these modern technologies have pros and cons when it comes to building your ideal business website.
         Let's discuss these options so that we can arrive at the best possible technology to utilize for creating your project.</p>
     </div>
-    <mat-expansion-panel hideToggle>
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Tech List
-        </mat-panel-title>
-        <mat-panel-description>
-          Pros / Cons of 12 Modern JavaScript Project Starters
-        </mat-panel-description>
-      </mat-expansion-panel-header>
-      <div id="tech-list-container1">
-        <ul id="angularcli-list">
-          <img src="assets/angularcli.png" alt="angular cli">
-          <h4>Angular CLI</h4>
-          <li>Pros:</li>
-          <li>•	Powerful CLI to generate components/services quickly.</li>
-          <li>•	Opinionated structure enforces scalable architecture.</li>
-          <li>•	Built-in support for routing, testing, and internationalization.</li>
-          <li>•	Backed by Google; long-term support.</li>
-          <li>Cons:</li>
-          <li>•	Steep learning curve, especially for beginners.</li>
-          <li>•	Verbose syntax and heavy boilerplate.</li>
-          <li>•	Slower build times compared to tools like Vite.</li>
-        </ul>
-        <ul id="bootstrap-list">
-          <img src="assets/bootstrap.png" alt="bootstrap">
-          <h4>Bootstrap</h4>
-          <li>Pros:</li>
-          <li>•	Rapid UI prototyping with prebuilt responsive components.</li>
-          <li>•	Widely used; tons of themes and templates available.</li>
-          <li>•	Works well with or without JavaScript frameworks.</li>
-          <li>Cons:</li>
-          <li>•	Sites can look “generic” if not customized.</li>
-          <li>•	Heavier than utility-first alternatives like Tailwind CSS.</li>
-          <li>•	JavaScript components require jQuery or Bootstrap’s own custom bundle.</li>
-        </ul>
-      </div>
-      <div id="tech-list-container2">
-        <ul id="express-list">
-          <img src="assets/express.png" alt="express">
-          <h4>Express</h4>
-          <li>Pros:</li>
-          <li>•	Minimal and flexible Node.js web app framework.</li>
-          <li>•	Middleware pattern makes extending easy.</li>
-          <li>•	Vast ecosystem of plugins/modules.</li>
-          <li>•	Perfect for RESTful APIs and microservices.</li>
-          <li>Cons:</li>
-          <li>•	No built-in structure – you have to define it yourself.</li>
-          <li>•	Callback-heavy if not using async/await or Promises well.</li>
-          <li>•	Less opinionated can be a pro or con depending on the dev team.</li>
-        </ul>
-        <ul id="html5boilerplate-list">
-          <img src="assets/html5boilerplate.png" alt="html5 boilerplate">
-          <h4>HTML5 Boilerplate</h4>
-          <li>Pros:</li>
-          <li>•	Solid starting point for vanilla HTML/CSS/JS projects.</li>
-          <li>•	SEO and performance best practices built-in.</li>
-          <li>•	Easy to understand and modify.</li>
-          <li>Cons:</li>
-          <li>•	Not suited for SPAs or dynamic sites without additional setup.</li>
-          <li>•	Lacks build tooling or framework support out of the box.</li>
-        </ul>
-      </div>
-      <div id="tech-list-container3">
-        <ul id="jquery-list">
-          <img src="assets/jquery.png" alt="jquery">
-          <h4>jQuery</h4>
-          <li>Pros:</li>
-          <li>•	Extremely easy to use and understand.</li>
-          <li>•	Great for legacy support and quick DOM manipulation.</li>
-          <li>•	Large plugin ecosystem.</li>
-          <li>Cons:</li>
-          <li>•	Largely obsolete in modern SPA development.</li>
-          <li>•	Bloated compared to modern vanilla JS or frameworks.</li>
-          <li>•	Not ideal for large-scale apps.</li>
-        </ul>
-        <ul id="nextjs-list">
-          <img src="assets/nextjs.png" alt="next js">
-          <h4>Next.js</h4>
-          <li>Pros:</li>
-          <li>•	Full-stack React framework with SSR/SSG capabilities.</li>
-          <li>•	Excellent routing system and performance optimization.</li>
-          <li>•	Built-in API routes and great SEO support.</li>
-          <li>•	Vercel-backed and regularly updated.</li>
-          <li>Cons:</li>
-          <li>•	Learning curve for SSR/SSG concepts.</li>
-          <li>•	Abstracts a lot; debugging can be difficult.</li>
-          <li>•	May be overkill for small projects.</li>
-        </ul>
-      </div>
-      <div id="tech-list-container4">
-        <ul id="nodejs-list">
-          <img src="assets/nodejs.png" alt="node js">
-          <h4>Node.js</h4>
-          <li>Pros:</li>
-          <li>•	Enables full JavaScript stack (front + back).</li>
-          <li>•	Large ecosystem via npm.</li>
-          <li>•	Event-driven, non-blocking I/O is great for performance.</li>
-          <li>Cons:</li>
-          <li>•	Not a framework — needs libraries like Express.</li>
-          <li>•	Single-threaded model can struggle with CPU-bound tasks.</li>
-          <li>•	Callback hell if not managed properly.</li>
-        </ul>
-        <ul id="react-list">
-          <img src="assets/react.png" alt="react">
-          <h4>React</h4>
-          <li>Pros:</li>
-          <li>•	Component-based architecture promotes reusability.</li>
-          <li>•	Huge ecosystem and community support.</li>
-          <li>•	Great dev tools and performance with hooks and virtual DOM.</li>
-          <li>•	Backed by Meta; long-term support.</li>
-          <li>Cons:</li>
-          <li>•	Just the view layer — requires other libraries for routing, state, etc.</li>
-          <li>•	JSX can be off-putting for new devs.</li>
-          <li>•	Frequent updates; fast-evolving.</li>
-        </ul>
-      </div>
-      <div id="tech-list-container5">
-        <ul id="reactnative-list">
-          <img src="assets/reactnative.png" alt="react native">
-          <h4>React Native</h4>
-          <li>Pros:</li>
-          <li>•	Cross-platform (iOS/Android) from a single codebase.</li>
-          <li>•	Reuses React knowledge and components.</li>
-          <li>•	Strong community, fast iteration with hot reload.</li>
-          <li>•	Backed by Meta; long-term support.</li>
-          <li>Cons:</li>
-          <li>•	Not true native performance in some cases.</li>
-          <li>•	Requires native bridging for advanced features.</li>
-          <li>•	Ecosystem still maturing compared to native iOS/Android.</li>
-        </ul>
-        <ul id="vite-list">
-          <img src="assets/vite.png" alt="vite">
-          <h4>Vite</h4>
-          <li>Pros:</li>
-          <li>•	Extremely fast development server and HMR.</li>
-          <li>•	Native ES module support.</li>
-          <li>•	Pre-configured for frameworks like Vue and React.</li>
-          <li>Cons:</li>
-          <li>•	Still relatively young compared to Webpack.</li>
-          <li>•	Limited plugin ecosystem (but growing fast).</li>
-          <li>•	Might need customization for complex builds.</li>
-        </ul>
-      </div>
-      <div id="tech-list-container6">
-        <ul id="vuejs-list">
-          <img src="assets/vuejs.png" alt="vue js">
-          <h4>Vue.js</h4>
-          <li>Pros:</li>
-          <li>•	Easiest learning curve among major frameworks.</li>
-          <li>•	Reactive two-way data binding.</li>
-          <li>•	Great docs, tooling (Vue CLI / Vite), and ecosystem (Nuxt.js).</li>
-          <li>Cons:</li>
-          <li>•	Less enterprise adoption than React/Angular.</li>
-          <li>•	Version transitions (e.g., from Vue 2 to 3) can be rough.</li>
-          <li>•	Somewhat opinionated structure may not suit all devs.</li>
-        </ul>
-        <ul id="wordpress-list">
-          <img src="assets/wordpress.png" alt="wordpress">
-          <h4>WordPress</h4>
-          <li>Pros:</li>
-          <li>•	Ubiquitous CMS; massive ecosystem.</li>
-          <li>•	REST API and Gutenberg block editor make it JS-friendly.</li>
-          <li>•	Great for content-driven sites with quick setup.</li>
-          <li>Cons:</li>
-          <li>•	PHP-based core — JS plays a secondary role.</li>
-          <li>•	Performance and security issues if not managed well.</li>
-          <li>•	Customization via JS can be clunky depending on theme/plugins.</li>
-        </ul>
-      </div>
-    </mat-expansion-panel>
+    <section class="capabilities-header">
+      <h1>Modern frameworks. Human craftsmanship.</h1>
+    </section>
+
+    <section class="capabilities-intro">
+      <p>
+        Auralicode builds with today’s best front-end and back-end tools — always chosen to match your project’s goals, scale, and long-term needs. I’m fluent in over 60 technical skills, but I don’t use tech for tech’s sake. Every choice is deliberate, every integration tested, and every line of code reviewed by an actual human (me).
+      </p>
+    </section>
+
+    <section class="tech-stack">
+      <h2>Frameworks & Platforms</h2>
+      <ul>
+        <li>Angular CLI</li>
+        <li>React</li>
+        <li>Vue.js</li>
+        <li>Next.js</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>WordPress</li>
+        <li>HTML5 Boilerplate</li>
+        <li>Vite</li>
+        <li>jQuery</li>
+        <li>Bootstrap</li>
+        <li>React Native</li>
+      </ul>
+    </section>
+
+    <section class="ui-libraries">
+      <h2>UI Component Libraries</h2>
+      <ul>
+        <li>Angular Material</li>
+        <li>Material-UI (MUI)</li>
+        <li>Vuetify</li>
+        <li>Radix UI</li>
+        <li>Prime UI (PrimeReact, PrimeNG, PrimeVue)</li>
+        <li>Ant Design (AntD)</li>
+        <li>Chakra UI</li>
+        <li>Kendo UI</li>
+        <li>Tailwind UI</li>
+        <li>Mantine</li>
+        <li>NG/React Bootstrap</li>
+        <li>React Paper</li>
+      </ul>
+    </section>
+
+    <section class="approach">
+      <p>
+        Each framework and library offers unique strengths. I help select the best fit for your project’s user experience and maintainability needs — ensuring fast, accessible, and beautiful interfaces that delight users and are easy to evolve.
+      </p>
+    </section>
+
     <mat-card-footer>
       <div class="body">
         <p id="footer">
