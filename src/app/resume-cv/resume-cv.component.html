@@ -5,72 +5,55 @@
     </div>
   </mat-card-header>
   <mat-card-content>
-    <div class="body">
-      <mat-expansion-panel hideToggle>
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            1-Page Resume/CV
-          </mat-panel-title>
-          <mat-panel-description>
-            Formatted for Directness
-          </mat-panel-description>
-        </mat-expansion-panel-header>
-        <div class="resume" style='position: relative; height: 100%;'>
-          <pdf-viewer src="assets/Galen-Tenney-Resume.pdf"
-                    [show-all]="true"
-                    [autoresize]="true"
-                    [original-size]='true'
-                    [fit-to-page]='true'
-                    [render-text]='false'
-                    (page-rendered)="pageRendered()">
-          </pdf-viewer>
+    <section class="resume-header">
+      <h1>Experience & Expertise — Galen Tenney</h1>
+    </section>
+
+    <section class="resume-bio">
+      <p>
+        I’m Galen Tenney — a designer-turned-developer and founder of Auralicode. With over 20 years blending graphic design, web development, and IT expertise, I craft digital products that prioritize clarity, maintainability, and user experience.
+      </p>
+    </section>
+
+    <section class="core-strengths">
+      <h2>Core Strengths</h2>
+      <ul>
+        <li>Product strategy, UX, and interaction design</li>
+        <li>Frontend architecture (component-driven, performance-first)</li>
+        <li>Backend services and API design</li>
+        <li>Accessibility, automated testing, and CI/CD pipelines</li>
+        <li>Code audits, refactoring, and rescue</li>
+        <li>Human-led AI integration and automation</li>
+      </ul>
+    </section>
+
+    <section class="professional-experience">
+      <h2>Professional Experience</h2>
+      <div>
+        <h3>Auralicode — Founder (Year–Present)</h3>
+        <p>Lead architect and developer on bespoke web and app projects, audits, and continuous engineering.</p>
+      </div>
+      <div *ngIf="previousRoles?.length">
+        <div *ngFor="let role of previousRoles">
+          <h3>{{ role.title }} — {{ role.company }} ({{ role.years }})</h3>
+          <p>{{ role.description }}</p>
         </div>
-      </mat-expansion-panel>
-    </div>
-    <div class="body">
-      <mat-expansion-panel hideToggle>
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            2-Page Resume/CV
-          </mat-panel-title>
-          <mat-panel-description>
-            Formatted for Balance
-          </mat-panel-description>
-        </mat-expansion-panel-header>
-        <div class="resume" style='position: relative; height: 100%;'>
-          <pdf-viewer src="assets/Galen-Tenney_Resume.pdf"
-                    [show-all]="true"
-                    [autoresize]="true"
-                    [original-size]='true'
-                    [fit-to-page]='true'
-                    [render-text]='false'
-                    (page-rendered)="pageRendered()">
-          </pdf-viewer>
-        </div>
-      </mat-expansion-panel>
-    </div>
-    <div class="body">
-      <mat-expansion-panel hideToggle>
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            5-Page Resume/CV
-          </mat-panel-title>
-          <mat-panel-description>
-            Formatted for Depth
-          </mat-panel-description>
-        </mat-expansion-panel-header>
-        <div class="resume" style='position: relative; height: 100%;'>
-          <pdf-viewer src="assets/Galen_W_Tenney_Resume.pdf"
-                    [show-all]="true"
-                    [autoresize]="true"
-                    [original-size]='true'
-                    [fit-to-page]='true'
-                    [render-text]='false'
-                    (page-rendered)="pageRendered()">
-          </pdf-viewer>
-        </div>
-      </mat-expansion-panel>
-    </div>
+      </div>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Bachelor of Arts, Graphic/Web Design — [School]</li>
+        <li>Graduate-level Certificate, Web Development & IT Studies — [School]</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <p>Open to client projects and collaborations. Reach out to discuss your needs and how I can help.</p>
+      <a class="btn btn-primary" routerLink="/contact">Get in Touch</a>
+    </section>
+
       <mat-card-footer>
       <div class="body">
         <p id="footer">

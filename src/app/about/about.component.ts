@@ -14,6 +14,6 @@ import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} fro
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })
-export class AboutComponent {
+export class AboutComponent {}
 
-}
+

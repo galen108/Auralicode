@@ -1,30 +1,30 @@
 import { Component } from '@angular/core';
-import {MatCard, MatCardContent, MatCardFooter, MatCardHeader} from "@angular/material/card";
-import {MatExpansionPanel, MatExpansionPanelHeader, MatExpansionPanelTitle, MatExpansionPanelDescription} from "@angular/material/expansion";
-import {PdfViewerModule} from "ng2-pdf-viewer";
 
+interface Role {
+  title: string;
+  company: string;
+  years: string;
+  description: string;
+}
 
 @Component({
-  selector: 'app-resume-cv',
-  standalone: true,
-    imports: [
-        MatCard,
-        MatCardHeader,
-        MatCardContent,
-        MatExpansionPanel,
-        MatExpansionPanelHeader,
-        MatExpansionPanelTitle,
-        MatExpansionPanelDescription,
-        PdfViewerModule,
-        MatCardFooter
-    ],
-  templateUrl: './resume-cv.component.html',
-  styleUrl: './resume-cv.component.css'
+  selector: 'app-resume',
+  templateUrl: './resume.component.html',
+  styleUrls: ['./resume.component.css']
 })
-export class ResumeCvComponent {
-  private pdfComponent: any;
-
-  pageRendered() {
-      this.pdfComponent.pdfViewer.currentScaleValue = 'page-fit';
+export class ResumeComponent {
+  previousRoles: Role[] = [
+    {
+      title: 'Senior Frontend Developer',
+      company: 'Tech Solutions Inc.',
+      years: '2015–2020',
+      description: 'Led the frontend team building scalable SPA apps using Angular and React.'
+    },
+    {
+      title: 'Web Developer',
+      company: 'Creative Digital Agency',
+      years: '2010–2015',
+      description: 'Designed and developed responsive websites for clients across various industries.'
     }
+  ];
 }

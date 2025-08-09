@@ -18,6 +18,4 @@ import {MatExpansionPanel, MatExpansionPanelHeader, MatExpansionPanelTitle, MatE
     ],
   styleUrl: './capabilities.component.css'
 })
-export class CapabilitiesComponent {
-
-}
+export class CapabilitiesComponent {}

@@ -14,6 +14,4 @@ import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} fro
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.css'
 })
-export class ContactComponent {
-
-}
+export class ContactComponent {}
