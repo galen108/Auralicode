@@ -21,6 +21,4 @@ import {PdfViewerModule} from "ng2-pdf-viewer";
   templateUrl: './services.component.html',
   styleUrl: './services.component.css'
 })
-export class ServicesComponent {
-
-}
+export class ServicesComponent {}
