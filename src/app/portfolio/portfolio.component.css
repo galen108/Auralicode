@@ -23,7 +23,7 @@
   background-color: linen;
   margin: 1em;
 }
-.body img {
+img {
   display: flex;
   flex-direction: column;
   align-self: center;
