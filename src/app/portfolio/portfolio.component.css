@@ -24,11 +24,11 @@
   margin: 1em;
 }
 .body img {
-  display: flex;
+  display: block;
   flex-direction: column;
   align-self: center;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 .body p {
   align-self: center;
