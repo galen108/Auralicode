@@ -11,7 +11,7 @@ import {AboutComponent} from "./about/about.component";
 import {CapabilitiesComponent} from "./capabilities/capabilities.component";
 import {ServicesComponent} from "./services/services.component";
 import {PortfolioComponent} from "./portfolio/portfolio.component";
-import {ResumeCvComponent} from "./resume-cv/resume-cv.component";
+import {ResumeComponent} from "./resume-cv/resume.component";
 import {ContactComponent} from "./contact/contact.component";
 import {BreakpointObserver, Breakpoints} from "@angular/cdk/layout";
 import {Observable} from "rxjs";
@@ -37,7 +37,7 @@ import {PdfViewerModule} from "ng2-pdf-viewer";
     CapabilitiesComponent,
     ServicesComponent,
     PortfolioComponent,
-    ResumeCvComponent,
+    ResumeComponent,
     ContactComponent,
     PdfViewerModule],
   templateUrl: './app.component.html',
