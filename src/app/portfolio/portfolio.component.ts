@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} from "@angular/material/card";
+// import {NgForOf, NgIf} from "@angular/common";
 
 @Component({
   selector: 'app-portfolio',
@@ -9,7 +10,9 @@ import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} fro
     MatCardHeader,
     MatCardContent,
     MatCardImage,
-    MatCardFooter
+    MatCardFooter,
+    // NgForOf,
+    // NgIf
   ],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.css'
