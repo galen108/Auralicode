@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} from "@angular/material/card";
-// import {NgForOf, NgIf} from "@angular/common";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-portfolio',
@@ -11,8 +11,7 @@ import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} fro
     MatCardContent,
     MatCardImage,
     MatCardFooter,
-    // NgForOf,
-    // NgIf
+    RouterLink
   ],
   templateUrl: './portfolio.component.html',
   styleUrl: './portfolio.component.css'
