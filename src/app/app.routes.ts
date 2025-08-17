@@ -8,7 +8,7 @@ import {ResumeComponent} from "./resume-cv/resume.component";
 import {ContactComponent} from "./contact/contact.component";
 
 export const routes: Routes = [
-  {path: '', pathMatch: 'full', redirectTo: 'home'},
+  // {path: '', pathMatch: 'full', redirectTo: 'home'},
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
   {path: 'capabilities', component: CapabilitiesComponent},
