@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {MatCard, MatCardHeader, MatCardContent, MatCardFooter} from "@angular/material/card";
 import {MatExpansionPanel, MatExpansionPanelHeader, MatExpansionPanelTitle, MatExpansionPanelDescription} from "@angular/material/expansion";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-capabilities',
@@ -14,7 +15,8 @@ import {MatExpansionPanel, MatExpansionPanelHeader, MatExpansionPanelTitle, MatE
         MatExpansionPanelHeader,
         MatExpansionPanelTitle,
         MatExpansionPanelDescription,
-        MatCardFooter
+        MatCardFooter,
+        RouterLink
     ],
   styleUrl: './capabilities.component.css'
 })

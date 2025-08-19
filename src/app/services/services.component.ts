@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {MatCard, MatCardContent, MatCardFooter, MatCardHeader} from "@angular/material/card";
 import {MatExpansionPanel,  MatExpansionPanelHeader, MatExpansionPanelTitle, MatExpansionPanelDescription} from "@angular/material/expansion";
 import {PdfViewerModule} from "ng2-pdf-viewer";
+import {RouterLink} from "@angular/router";
 
 
 @Component({
@@ -16,7 +17,8 @@ import {PdfViewerModule} from "ng2-pdf-viewer";
         MatExpansionPanelTitle,
         MatExpansionPanelDescription,
         PdfViewerModule,
-        MatCardFooter
+        MatCardFooter,
+        RouterLink
     ],
   templateUrl: './services.component.html',
   styleUrl: './services.component.css'
