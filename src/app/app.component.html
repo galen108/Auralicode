@@ -38,7 +38,7 @@
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar color="primary">
-      @if (isHandset$ | async) {
+      @if (isHandset$ | async) '{{ "{"
       <button
         type="button"
         aria-label="Toggle sidenav"
@@ -46,8 +46,9 @@
         (click)="drawer.toggle()">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      }
-      <span style="font-weight: bolder">Auralicode</span>
+      "}" }}'
+      <span style="font-weight: bolder">
+        <a routerLink="/home" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Auralicode</a></span>
     </mat-toolbar>
     <router-outlet></router-outlet>
   </mat-sidenav-content>
