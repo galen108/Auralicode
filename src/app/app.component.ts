@@ -17,6 +17,7 @@ import {BreakpointObserver, Breakpoints} from "@angular/cdk/layout";
 import {Observable} from "rxjs";
 import {map, shareReplay} from "rxjs/operators";
 import {PdfViewerModule} from "ng2-pdf-viewer";
+import {load} from "@angular-devkit/build-angular/src/utils/server-rendering/esm-in-memory-loader/loader-hooks";
 
 @Component({
   selector: 'app-root',
@@ -52,4 +53,5 @@ export class AppComponent {
       shareReplay()
     );
   protected readonly PortfolioComponent = PortfolioComponent;
+  protected readonly loadHomeComponentFromTitle = HomeComponent;
 }
