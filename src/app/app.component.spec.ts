@@ -17,7 +17,10 @@ describe('AppComponent', () => {
   it(`should have the 'Auralicode' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Auralicode');
+    expect(app.title).toEqual('<a routerLink="/home"\n' +
+      '         routerLinkActive="activebutton"\n' +
+      '         ariaCurrentWhenActive="page">\n' +
+      '        Auralicode</a>');
   });
 
   it('should render title', () => {
