@@ -38,7 +38,6 @@
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar color="primary">
-      &#64;if (isHandset$ | async) &#125;
       <button
         type="button"
         aria-label="Toggle sidenav"
@@ -46,7 +45,6 @@
         (click)="drawer.toggle()">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      &#125;
       <span style="font-weight: bolder" routerLink="/home" routerLinkActive="activebutton" ariaCurrentWhenActive="page">
         Auralicode
       </span>
