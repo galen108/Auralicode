@@ -7,31 +7,31 @@
     <mat-nav-list>
       <a mat-list-item routerLink="/home"
          routerLinkActive="activebutton"
-         ariaCurrentWhenActive="true">
+         ariaCurrentWhenActive="page">
         Home</a>
       <a mat-list-item routerLink="/about"
          routerLinkActive="activebutton"
-         ariaCurrentWhenActive="true">
+         ariaCurrentWhenActive="page">
         About</a>
       <a mat-list-item routerLink="/capabilities"
          routerLinkActive="activebutton"
-         ariaCurrentWhenActive="true">
+         ariaCurrentWhenActive="page">
         Capabilities</a>
       <a mat-list-item routerLink="/services"
          routerLinkActive="activebutton"
-         ariaCurrentWhenActive="true">
+         ariaCurrentWhenActive="page">
         Services</a>
       <a mat-list-item routerLink="/portfolio"
          routerLinkActive="activebutton"
-         ariaCurrentWhenActive="true">
+         ariaCurrentWhenActive="page">
         Portfolio</a>
       <a mat-list-item routerLink="/resume"
          routerLinkActive="activebutton"
-         ariaCurrentWhenActive="true">
+         ariaCurrentWhenActive="page">
         Resume</a>
       <a mat-list-item routerLink="/contact"
          routerLinkActive="activebutton"
-         ariaCurrentWhenActive="true">
+         ariaCurrentWhenActive="page">
         Contact</a>
       <a mat-list-item href="https://aurality-design.com">Aurality Design</a>
     </mat-nav-list>
@@ -47,7 +47,9 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       &#125;
-      <span style="font-weight: bolder" routerLink="/home" routerLinkActive="activebutton" ariaCurrentWhenActive="true">Auralicode</span>
+      <span style="font-weight: bolder" routerLink="/home" routerLinkActive="activebutton" ariaCurrentWhenActive="page">
+        Auralicode
+      </span>
     </mat-toolbar>
     <router-outlet></router-outlet>
   </mat-sidenav-content>
