@@ -19,7 +19,7 @@ export const routes: Routes = [
   {path: 'capabilities', component: CapabilitiesComponent},
   {path: 'services', component: ServicesComponent},
   {path: 'web-foundations', component: WebFoundationsComponent},
-  {path: 'web-application', component: WebApplicationsComponent},
+  {path: 'web-applications', component: WebApplicationsComponent},
   {path: 'enterprise-web', component: EnterpriseWebComponent},
   {path: 'portfolio', component: PortfolioComponent},
   {path: 'resume', component: ResumeComponent},
