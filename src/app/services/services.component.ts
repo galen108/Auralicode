@@ -2,7 +2,11 @@ import { Component } from '@angular/core';
 import {MatCard, MatCardContent, MatCardFooter, MatCardHeader} from "@angular/material/card";
 import {MatExpansionPanel,  MatExpansionPanelHeader, MatExpansionPanelTitle, MatExpansionPanelDescription} from "@angular/material/expansion";
 import {PdfViewerModule} from "ng2-pdf-viewer";
-import {RouterLink} from "@angular/router";
+import {RouterLink, RouterLinkActive} from "@angular/router";
+import {MatListItem} from "@angular/material/list";
+import {WebFoundationsComponent} from "../web-foundations/web-foundations.component";
+import {WebApplicationsComponent} from "../web-applications/web-applications.component";
+import {EnterpriseInnovationComponent} from "../enterprise-innovation/enterprise-innovation.component";
 
 
 @Component({
@@ -18,7 +22,12 @@ import {RouterLink} from "@angular/router";
         MatExpansionPanelDescription,
         PdfViewerModule,
         MatCardFooter,
-        RouterLink
+        RouterLink,
+        MatListItem,
+        RouterLinkActive,
+        WebFoundationsComponent,
+        WebApplicationsComponent,
+        EnterpriseInnovationComponent
     ],
   templateUrl: './services.component.html',
   styleUrl: './services.component.css'
