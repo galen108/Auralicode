@@ -5,7 +5,7 @@ import {CapabilitiesComponent} from "./capabilities/capabilities.component";
 import {ServicesComponent} from "./services/services.component";
 import {WebFoundationsComponent} from "./web-foundations/web-foundations.component";
 import {WebApplicationsComponent} from "./web-applications/web-applications.component";
-import {EnterpriseInnovationComponent} from "./enterprise-innovation/enterprise-innovation.component";
+import {EnterpriseWebComponent} from "./enterprise-web/enterprise-web.component";
 import {PortfolioComponent} from "./portfolio/portfolio.component";
 import {ResumeComponent} from "./resume-cv/resume.component";
 import {ContactComponent} from "./contact/contact.component";
@@ -20,7 +20,7 @@ export const routes: Routes = [
   {path: 'services', component: ServicesComponent},
   {path: 'web-foundations', component: WebFoundationsComponent},
   {path: 'web-application', component: WebApplicationsComponent},
-  {path: 'enterprise-innovation', component: EnterpriseInnovationComponent},
+  {path: 'enterprise-web', component: EnterpriseWebComponent},
   {path: 'portfolio', component: PortfolioComponent},
   {path: 'resume', component: ResumeComponent},
   {path: 'contact', component: ContactComponent}];

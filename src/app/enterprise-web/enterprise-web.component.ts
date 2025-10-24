@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import {MatCard, MatCardContent, MatCardFooter, MatCardHeader} from "@angular/material/card";
 
 @Component({
-  selector: 'app-enterprise-innovation',
+  selector: 'app-enterprise-web',
   standalone: true,
     imports: [
         MatCard,
@@ -10,9 +10,9 @@ import {MatCard, MatCardContent, MatCardFooter, MatCardHeader} from "@angular/ma
         MatCardFooter,
         MatCardHeader
     ],
-  templateUrl: './enterprise-innovation.component.html',
-  styleUrl: './enterprise-innovation.component.css'
+  templateUrl: './enterprise-web.component.html',
+  styleUrl: './enterprise-web.component.css'
 })
-export class EnterpriseInnovationComponent {
+export class EnterpriseWebComponent {
 
 }

@@ -6,7 +6,7 @@ import {RouterLink, RouterLinkActive} from "@angular/router";
 import {MatListItem} from "@angular/material/list";
 import {WebFoundationsComponent} from "../web-foundations/web-foundations.component";
 import {WebApplicationsComponent} from "../web-applications/web-applications.component";
-import {EnterpriseInnovationComponent} from "../enterprise-innovation/enterprise-innovation.component";
+import {EnterpriseWebComponent} from "../enterprise-web/enterprise-web.component";
 
 
 @Component({
@@ -27,7 +27,7 @@ import {EnterpriseInnovationComponent} from "../enterprise-innovation/enterprise
         RouterLinkActive,
         WebFoundationsComponent,
         WebApplicationsComponent,
-        EnterpriseInnovationComponent
+        EnterpriseWebComponent
     ],
   templateUrl: './services.component.html',
   styleUrl: './services.component.css'
