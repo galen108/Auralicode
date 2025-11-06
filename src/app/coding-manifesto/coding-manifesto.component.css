@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: linen;
+  justify-content: center;
+  align-items: center;
+}
+.graphic {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: linen;
+  justify-content: center;
+  align-items: center;
+}
+.graphic #portrait {
+  align-self: center;
+  width: auto;
+  height: 480px;
+}
+.body {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: linen;
+  justify-content: center;
+  align-items: center;
+}
+.body #text {
+  align-self: center;
+  text-align: center;
+  font-size: large;
+  width: 600px;
+  height: auto;
+  margin: 1em;
+}
+.body #footer {
+  align-self: center;
+  text-align: center;
+  font-size: large;
+  width: 600px;
+  height: auto;
+  margin: 1em;
+}
