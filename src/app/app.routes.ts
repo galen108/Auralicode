@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import {HomeComponent} from "./home/home.component";
 import {AboutComponent} from "./about/about.component";
-import {CodingManifestoComponent} from "./coding-manifesto/coding-manifesto.component";
+import {CodingVisionComponent} from "./coding-vision/coding-vision.component";
 import {CapabilitiesComponent} from "./capabilities/capabilities.component";
 import {ServicesComponent} from "./services/services.component";
 import {WebFoundationsComponent} from "./web-foundations/web-foundations.component";
@@ -17,7 +17,7 @@ export const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: 'home'},
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'coding-manifesto', component: CodingManifestoComponent},
+  {path: 'coding-vision', component: CodingVisionComponent},
   {path: 'capabilities', component: CapabilitiesComponent},
   {path: 'services', component: ServicesComponent},
   {path: 'web-foundations', component: WebFoundationsComponent},

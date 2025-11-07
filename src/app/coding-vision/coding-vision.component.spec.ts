@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CodingManifestoComponent } from './coding-manifesto.component';
+import { CodingManifestoComponent } from './coding-vision.component';
 
 describe('CodingManifestoComponent', () => {
   let component: CodingManifestoComponent;
@@ -11,7 +11,7 @@ describe('CodingManifestoComponent', () => {
       imports: [CodingManifestoComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(CodingManifestoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

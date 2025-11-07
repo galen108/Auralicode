@@ -3,7 +3,7 @@ import {MatCard, MatCardContent, MatCardFooter, MatCardHeader, MatCardImage} fro
 import {RouterLink} from "@angular/router";
 
 @Component({
-  selector: 'app-coding-manifesto',
+  selector: 'app-coding-vision',
   standalone: true,
     imports: [
         MatCard,
@@ -13,9 +13,9 @@ import {RouterLink} from "@angular/router";
         MatCardImage,
         RouterLink
     ],
-  templateUrl: './coding-manifesto.component.html',
-  styleUrl: './coding-manifesto.component.css'
+  templateUrl: './coding-vision.component.html',
+  styleUrl: './coding-vision.component.css'
 })
-export class CodingManifestoComponent {
+export class CodingVisionComponent {
 
 }
