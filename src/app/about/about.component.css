@@ -17,7 +17,7 @@
 .graphic #landscape {
   align-self: center;
   width: auto;
-  height: 215px;
+  height: 300px;
 }
 .body {
   display: flex;
