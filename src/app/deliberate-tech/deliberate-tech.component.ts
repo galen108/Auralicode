@@ -16,4 +16,4 @@ import {RouterLink} from "@angular/router";
   templateUrl: './deliberate-tech.component.html',
   styleUrl: './deliberate-tech.component.css'
 })
-export class DeliberateTech {}
+export class DeliberateTechComponent {}
