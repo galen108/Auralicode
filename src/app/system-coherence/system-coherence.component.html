@@ -1,34 +1,60 @@
-<section class="page">
-  <header class="hero">
-    <h1>{{ pageTitle }}</h1>
-
-    <p>
-      System coherence is the difference between software that “mostly works”
-      and software that feels effortless.
-    </p>
-
-    <p>
-      Auralicode designs systems where identity, sessions, and platform boundaries
-      are intentional—so users never get trapped in loops or broken flows.
-    </p>
-  </header>
-
-  <main class="content">
+<mat-card>
+  <mat-card-header>
+    <div class="header">
+      <h3>SYSTEM COHERENCE</h3>
+    </div>
+  </mat-card-header>
+  <mat-card-content>
     <section>
-      <h2>Why System Coherence Matters</h2>
-      <ul>
-        <li>One identity authority</li>
-        <li>One session model</li>
-        <li>Designed handoffs</li>
-        <li>Clear system boundaries</li>
-      </ul>
+      <h2>System Coherence</h2>
+      <h3>Modern digital systems rarely fail because of a single bad decision.
+        They fail because of fragmentation.</h3>
+      • Fragmented tools.
+      • Fragmented logic.
+      • Fragmented ownership.
+      • Fragmented responsibility.
+      <h4>System Coherence is the practice of designing technology so that all parts of a system reinforce each other instead of competing with each other.</h4>
+      At Auralicode, system coherence means that design, architecture, performance, security, scalability, and user experience are not treated as separate concerns. They are treated as one continuous system, evolving together.
+      <h2>What System Coherence Means in Practice</h2>
+      <h3>A coherent system:</h3>
+      • Has a clear mental model for users and developers
+      • Avoids unnecessary abstraction and duplication
+      • Aligns UI, business logic, and data structures
+      • Scales without accumulating technical debt
+      • Remains understandable months or years later
+      • We don’t build “features.”
+      • We build systems that make sense.
+    <h4>That means every component exists for a reason, every dependency is intentional, and every layer of the stack supports the layers above and below it.</h4>
+    <h2>Why Coherence Matters</h2>
+      <h3>Incoherent systems:</h3>
+    • Become expensive to maintain
+    • Require constant patching
+    • Create hidden failure points
+    • Lock teams into reactive mode
+      <h3>Coherent systems:</h3>
+    • Reduce long-term costs
+    • Improve reliability and performance
+    • Enable faster iteration
+    • Empower teams instead of burdening them
+    <h4>Most organizations feel pain not because they lack technology, but because their technology lacks internal alignment.
+      System coherence is how we solve that.</h4>
+      <h2>Coherence Over Complexity</h2>
+    <h3>Complexity is easy to create.
+      Coherence requires discipline.</h3>
+      <h4>We intentionally favor:</h4>
+    • Clear architecture over clever tricks
+    • Readability over novelty
+    • Stability over hype
+    • Long-term clarity over short-term speed
+    • Technology should feel calm, not chaotic.
     </section>
-
-    <section class="grid">
-      <article *ngFor="let p of pillars" class="card">
-        <h3>{{ p.title }}</h3>
-        <p>{{ p.description }}</p>
-      </article>
-    </section>
-  </main>
-</section>
+    <br>
+    <mat-card-footer>
+      <div class="body">
+        <p id="footer">
+          Copyright © 2025 Galen W. Tenney. All rights reserved. Auralicode was developed with Angular.
+        </p>
+      </div>
+    </mat-card-footer>
+    </mat-card-content>
+    </mat-card>
