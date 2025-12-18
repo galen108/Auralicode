@@ -13,6 +13,4 @@ import {MatCard, MatCardContent, MatCardFooter, MatCardHeader} from "@angular/ma
   templateUrl: './web-foundations.component.html',
   styleUrl: './web-foundations.component.css'
 })
-export class WebFoundationsComponent {
-
-}
+export class WebFoundationsComponent {}

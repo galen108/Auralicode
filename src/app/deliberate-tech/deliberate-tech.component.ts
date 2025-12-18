@@ -1,19 +1,19 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component } from '@angular/core';
+import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} from "@angular/material/card";
+import {RouterLink} from "@angular/router";
 
 @Component({
-  selector: 'app-deliberate-technology',
-  templateUrl: './deliberate-technology.component.html',
-  styleUrls: ['./deliberate-technology.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  selector: 'app-deliberate-tech',
+  standalone: true,
+    imports: [
+        MatCard,
+        MatCardHeader,
+        MatCardContent,
+        MatCardImage,
+        MatCardFooter,
+        RouterLink
+    ],
+  templateUrl: './deliberate-tech.component.html',
+  styleUrl: './deliberate-tech.component.css'
 })
-export class DeliberateTechnologyComponent {
-  pageTitle = 'Deliberate Technology';
-
-  principles = [
-    'Longevity and ecosystem health',
-    'Clarity and human comprehension',
-    'Security and explicit boundaries',
-    'Operational simplicity',
-    'Reduced cognitive load'
-  ];
-}
+export class DeliberateTech {}

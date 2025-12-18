@@ -1,21 +1,19 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component } from '@angular/core';
+import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} from "@angular/material/card";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-capabilities',
+  standalone: true,
+    imports: [
+        MatCard,
+        MatCardHeader,
+        MatCardContent,
+        MatCardImage,
+        MatCardFooter,
+        RouterLink
+    ],
   templateUrl: './capabilities.component.html',
-  styleUrls: ['./capabilities.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  styleUrl: './capabilities.component.css'
 })
-export class CapabilitiesComponent {
-  pageTitle = 'Capabilities';
-
-  areas = [
-    'Web applications and platforms',
-    'Frontend architecture and UI systems',
-    'Backend application logic',
-    'Authentication and security',
-    'Cloud deployment and operations',
-    'System integration and boundaries',
-    'Ongoing evolution and stewardship'
-  ];
-}
+export class CapabilitiesComponent {}

@@ -6,7 +6,8 @@ import {RouterLink, RouterLinkActive} from "@angular/router";
 import {MatListItem} from "@angular/material/list";
 import {WebFoundationsComponent} from "../web-foundations/web-foundations.component";
 import {WebApplicationsComponent} from "../web-applications/web-applications.component";
-import {EnterpriseWebComponent} from "../enterprise-web/enterprise-web.component";
+import {RobustWebAppsComponent} from "../robust-web-apps/robust-web-apps.component";
+import {EnterpriseGradeComponent} from "../enterprise-grade/enterprise-grade.component";
 
 
 @Component({
@@ -27,7 +28,8 @@ import {EnterpriseWebComponent} from "../enterprise-web/enterprise-web.component
         RouterLinkActive,
         WebFoundationsComponent,
         WebApplicationsComponent,
-        EnterpriseWebComponent
+        RobustWebAppsComponent,
+        EnterpriseGradeComponent
     ],
   templateUrl: './services.component.html',
   styleUrl: './services.component.css'

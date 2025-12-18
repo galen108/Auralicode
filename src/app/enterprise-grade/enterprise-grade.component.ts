@@ -1,18 +1,19 @@
 import { Component } from '@angular/core';
-import {MatCard, MatCardContent, MatCardFooter, MatCardHeader} from "@angular/material/card";
+import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} from "@angular/material/card";
+import {RouterLink} from "@angular/router";
 
 @Component({
-  selector: 'app-enterprise-web',
+  selector: 'app-enterprise-grade',
   standalone: true,
     imports: [
         MatCard,
+        MatCardHeader,
         MatCardContent,
+        MatCardImage,
         MatCardFooter,
-        MatCardHeader
+        RouterLink
     ],
-  templateUrl: './enterprise-web.component.html',
-  styleUrl: './enterprise-web.component.css'
+  templateUrl: './enterprise-grade.component.html',
+  styleUrl: './enterprise-grade.component.css'
 })
-export class EnterpriseWebComponent {
-
-}
+export class EnterpriseGradeComponent {}

@@ -16,6 +16,4 @@ import {RouterLink} from "@angular/router";
   templateUrl: './coding-vision.component.html',
   styleUrl: './coding-vision.component.css'
 })
-export class CodingVisionComponent {
-
-}
+export class CodingVisionComponent {}
