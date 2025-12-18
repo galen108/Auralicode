@@ -1,0 +1,31 @@
+<section class="page">
+  <header class="hero">
+    <h1>{{ pageTitle }}</h1>
+
+    <p>
+      Tools are abundant. Judgment is rare.
+    </p>
+
+    <p>
+      Auralicode selects technology deliberately—based on system needs,
+      long-term clarity, and architectural responsibility.
+    </p>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>How Technology Is Chosen</h2>
+      <ul>
+        <li *ngFor="let p of principles">{{ p }}</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Why We Don’t Publish Tool Lists</h2>
+      <p>
+        The right stack depends on context. Those decisions belong in
+        conversations—not marketing copy.
+      </p>
+    </section>
+  </main>
+</section>

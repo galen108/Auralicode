@@ -1,0 +1,34 @@
+<section class="page">
+  <header class="hero">
+    <h1>{{ pageTitle }}</h1>
+
+    <p>
+      System coherence is the difference between software that “mostly works”
+      and software that feels effortless.
+    </p>
+
+    <p>
+      Auralicode designs systems where identity, sessions, and platform boundaries
+      are intentional—so users never get trapped in loops or broken flows.
+    </p>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>Why System Coherence Matters</h2>
+      <ul>
+        <li>One identity authority</li>
+        <li>One session model</li>
+        <li>Designed handoffs</li>
+        <li>Clear system boundaries</li>
+      </ul>
+    </section>
+
+    <section class="grid">
+      <article *ngFor="let p of pillars" class="card">
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.description }}</p>
+      </article>
+    </section>
+  </main>
+</section>

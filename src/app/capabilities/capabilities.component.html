@@ -1,61 +1,25 @@
-<mat-card>
-  <mat-card-header>
-    <div class="header">
-      <h3>CAPABILITIES</h3>
-    </div>
-  </mat-card-header>
-  <mat-card-content>
-    <section class="capabilities-header">
-      <h1>Modern Frameworks. Human Craftsmanship.</h1>
+<section class="page">
+  <header class="hero">
+    <h1>{{ pageTitle }}</h1>
+
+    <p>
+      Capabilities are not tools. They are outcomes delivered through
+      coherent systems and deliberate decisions.
+    </p>
+  </header>
+
+  <main class="content">
+    <section>
+      <ul>
+        <li *ngFor="let area of areas">{{ area }}</li>
+      </ul>
     </section>
 
-    <section class="capabilities-intro">
+    <section>
       <p>
-        Auralicode builds with today’s best front-end and back-end technologies — always chosen to match your <a class="btn btn-primary" routerLink="/portfolio">project's goals, scale, and long-term needs</a>.
+        Every capability scales differently depending on scope and responsibility.
+        Services and pricing reflect that activation.
       </p>
     </section>
-
-    <section class="frontend-stack">
-      <h2>Frontend Frameworks & Platforms</h2>
-      Angular CLI • React • Vue.js • Next.js • Node.js • Express • WordPress • HTML5 Boilerplate • Vite • jQuery • Bootstrap • React Native
-    </section>
-
-    <section class="ui-libraries">
-      <h2>UI Component Libraries</h2>
-      Angular Material • Material-UI (MUI) • Vuetify • Radix UI • Prime UI (Prime NG/React/Vue) • Ant Design (AntD) • Chakra UI • Kendo UI • Tailwind UI • Mantine • NG/React Bootstrap • React Paper
-    </section>
-
-    <section class="backend-stack">
-      <h2>Backend Frameworks & Platforms</h2>
-      Java and JVM-based Languages • Python • Ruby • PHP • Go • Database Tools
-    </section>
-
-    <section class="devops-stack">
-      <h2>DevOps & Cloud Technologies</h2>
-      Docker • Kubernetes • HTTP Client
-    </section>
-
-    <section class="testing-stack">
-      <h2>Testing Frameworks</h2>
-      JUnit and TestNG • Selenium and Cypress
-    </section>
-
-    <section class="other-technologies">
-      <h2>Other Tools & Technologies</h2>
-      Maven and Gradle • GraphQL • AI Assistant
-    </section>
-
-    <section class="approach">
-      <p>
-        Every choice is deliberate, every integration tested, and every line of code reviewed by an actual human — me.
-    </section>
-    <br>
-    <mat-card-footer>
-      <div class="body">
-        <p id="footer">
-          Copyright © 2025 Galen W. Tenney. All rights reserved. Auralicode was developed with Angular.
-        </p>
-      </div>
-    </mat-card-footer>
-  </mat-card-content>
-</mat-card>
+  </main>
+</section>

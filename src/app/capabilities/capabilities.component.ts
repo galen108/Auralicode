@@ -1,23 +1,21 @@
-import { Component } from '@angular/core';
-import {MatCard, MatCardHeader, MatCardContent, MatCardFooter} from "@angular/material/card";
-import {MatExpansionPanel, MatExpansionPanelHeader, MatExpansionPanelTitle, MatExpansionPanelDescription} from "@angular/material/expansion";
-import {RouterLink} from "@angular/router";
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'app-capabilities',
-  standalone: true,
   templateUrl: './capabilities.component.html',
-    imports: [
-        MatCard,
-        MatCardHeader,
-        MatCardContent,
-        MatExpansionPanel,
-        MatExpansionPanelHeader,
-        MatExpansionPanelTitle,
-        MatExpansionPanelDescription,
-        MatCardFooter,
-        RouterLink
-    ],
-  styleUrl: './capabilities.component.css'
+  styleUrls: ['./capabilities.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class CapabilitiesComponent {}
+export class CapabilitiesComponent {
+  pageTitle = 'Capabilities';
+
+  areas = [
+    'Web applications and platforms',
+    'Frontend architecture and UI systems',
+    'Backend application logic',
+    'Authentication and security',
+    'Cloud deployment and operations',
+    'System integration and boundaries',
+    'Ongoing evolution and stewardship'
+  ];
+}
