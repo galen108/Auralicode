@@ -7,11 +7,18 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import {HomeComponent} from "./home/home.component";
-import {AboutComponent} from "./about/about.component";
+import {AboutComponent} from "./about/about.component"
+import {CodingVisionComponent} from "./coding-vision/coding-vision.component"
+import {SystemCoherenceComponent} from "./system-coherence/system-coherence.component"
+import {DeliberateTechComponent} from "./deliberate-tech/deliberate-tech.component"
 import {CapabilitiesComponent} from "./capabilities/capabilities.component";
 import {ServicesComponent} from "./services/services.component";
+import {WebFoundationsComponent} from "./web-foundations/web-foundations.component"
+import {WebApplicationsComponent} from "./web-applications/web-applications.component"
+import {RobustWebAppsComponent} from "./robust-web-apps/robust-web-app.component"
+import {EnterpriseGradeComponent} from "./enterprise-grade/enterprise-grade.component"
 import {PortfolioComponent} from "./portfolio/portfolio.component";
-import {ResumeComponent} from "./resume-cv/resume.component";
+import {ResumeComponent} from "./resume/resume.component"
 import {ContactComponent} from "./contact/contact.component";
 import {BreakpointObserver, Breakpoints} from "@angular/cdk/layout";
 import {Observable} from "rxjs";
@@ -34,8 +41,15 @@ import {PdfViewerModule} from "ng2-pdf-viewer";
     NgOptimizedImage,
     HomeComponent,
     AboutComponent,
+    CodingVisionComponent,
+    SystemCoherenceComponent,
+    DeliberateTechComponent,
     CapabilitiesComponent,
     ServicesComponent,
+    WebFoundationsComponent,
+    WebApplicationsComponent,
+    RobustWebAppsComponent,
+    EnterpriseGradeComponent,
     PortfolioComponent,
     ResumeComponent,
     ContactComponent,
