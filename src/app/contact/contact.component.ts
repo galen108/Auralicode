@@ -5,12 +5,13 @@ import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} fro
   selector: 'app-contact',
   standalone: true,
     imports: [
-        MatCard,
-        MatCardHeader,
-        MatCardContent,
-        MatCardImage,
-        MatCardFooter
-    ],
+                MatCard,
+                MatCardHeader,
+                MatCardContent,
+                MatCardImage,
+                MatCardFooter,
+                RouterLink
+            ],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.css'
 })

@@ -6,13 +6,13 @@ import {RouterLink} from "@angular/router";
   selector: 'app-enterprise-grade',
   standalone: true,
     imports: [
-        MatCard,
-        MatCardHeader,
-        MatCardContent,
-        MatCardImage,
-        MatCardFooter,
-        RouterLink
-    ],
+                MatCard,
+                MatCardHeader,
+                MatCardContent,
+                MatCardImage,
+                MatCardFooter,
+                RouterLink
+            ],
   templateUrl: './enterprise-grade.component.html',
   styleUrl: './enterprise-grade.component.css'
 })

@@ -6,13 +6,13 @@ import {RouterLink} from "@angular/router";
   selector: 'app-robust-web-apps',
   standalone: true,
     imports: [
-        MatCard,
-        MatCardHeader,
-        MatCardContent,
-        MatCardImage,
-        MatCardFooter,
-        RouterLink
-    ],
+                MatCard,
+                MatCardHeader,
+                MatCardContent,
+                MatCardImage,
+                MatCardFooter,
+                RouterLink
+            ],
   templateUrl: './robust-web-apps.component.html',
   styleUrl: './robust-web-apps.component.css'
 })

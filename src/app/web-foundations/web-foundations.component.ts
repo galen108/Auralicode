@@ -5,11 +5,13 @@ import {MatCard, MatCardContent, MatCardFooter, MatCardHeader} from "@angular/ma
   selector: 'app-web-foundations',
   standalone: true,
   imports: [
-    MatCard,
-    MatCardContent,
-    MatCardHeader,
-    MatCardFooter
-  ],
+              MatCard,
+              MatCardHeader,
+              MatCardContent,
+              MatCardImage,
+              MatCardFooter,
+              RouterLink
+          ],
   templateUrl: './web-foundations.component.html',
   styleUrl: './web-foundations.component.css'
 })

@@ -6,13 +6,13 @@ import {RouterLink} from "@angular/router";
   selector: 'app-home',
   standalone: true,
     imports: [
-        MatCard,
-        MatCardHeader,
-        MatCardContent,
-        MatCardImage,
-        MatCardFooter,
-        RouterLink
-    ],
+                MatCard,
+                MatCardHeader,
+                MatCardContent,
+                MatCardImage,
+                MatCardFooter,
+                RouterLink
+            ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

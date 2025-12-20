@@ -6,13 +6,13 @@ import {RouterLink} from "@angular/router";
   selector: 'app-coding-vision',
   standalone: true,
     imports: [
-        MatCard,
-        MatCardContent,
-        MatCardFooter,
-        MatCardHeader,
-        MatCardImage,
-        RouterLink
-    ],
+                MatCard,
+                MatCardHeader,
+                MatCardContent,
+                MatCardImage,
+                MatCardFooter,
+                RouterLink
+            ],
   templateUrl: './coding-vision.component.html',
   styleUrl: './coding-vision.component.css'
 })

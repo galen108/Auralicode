@@ -6,13 +6,13 @@ import {RouterLink} from "@angular/router";
   selector: 'app-deliberate-tech',
   standalone: true,
     imports: [
-        MatCard,
-        MatCardHeader,
-        MatCardContent,
-        MatCardImage,
-        MatCardFooter,
-        RouterLink
-    ],
+                MatCard,
+                MatCardHeader,
+                MatCardContent,
+                MatCardImage,
+                MatCardFooter,
+                RouterLink
+            ],
   templateUrl: './deliberate-tech.component.html',
   styleUrl: './deliberate-tech.component.css'
 })

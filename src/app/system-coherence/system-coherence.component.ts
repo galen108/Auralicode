@@ -6,13 +6,13 @@ import {RouterLink} from "@angular/router";
   selector: 'app-system-coherence',
   standalone: true,
     imports: [
-        MatCard,
-        MatCardHeader,
-        MatCardContent,
-        MatCardImage,
-        MatCardFooter,
-        RouterLink
-    ],
+                MatCard,
+                MatCardHeader,
+                MatCardContent,
+                MatCardImage,
+                MatCardFooter,
+                RouterLink
+            ],
   templateUrl: './system-coherence.component.html',
   styleUrl: './system-coherence.component.css'
 })
