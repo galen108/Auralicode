@@ -6,6 +6,19 @@
   justify-content: center;
   align-items: center;
 }
+.graphic {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: linen;
+  justify-content: center;
+  align-items: center;
+}
+.graphic #portrait {
+  align-self: center;
+  width: auto;
+  height: 480px;
+}
 .body {
   display: flex;
   width: 100%;
@@ -29,12 +42,4 @@
   width: 600px;
   height: auto;
   margin: 1em;
-}
-.services {
-  display: flex;
-  width: 100%;
-  height: auto;
-  background-color: linen;
-  justify-content: center;
-  align-items: center;
 }

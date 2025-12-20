@@ -1,10 +1,45 @@
-.page {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 3rem 1.25rem;
+.header {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: linen;
+  justify-content: center;
+  align-items: center;
 }
-
-ul {
-  padding-left: 1.25rem;
-  line-height: 1.7;
+.graphic {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: linen;
+  justify-content: center;
+  align-items: center;
+}
+.graphic #portrait {
+  align-self: center;
+  width: auto;
+  height: 480px;
+}
+.body {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: linen;
+  justify-content: center;
+  align-items: center;
+}
+.body #text {
+  align-self: center;
+  text-align: center;
+  font-size: large;
+  width: 600px;
+  height: auto;
+  margin: 1em;
+}
+.body #footer {
+  align-self: center;
+  text-align: center;
+  font-size: large;
+  width: 600px;
+  height: auto;
+  margin: 1em;
 }
