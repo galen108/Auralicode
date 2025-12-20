@@ -5,7 +5,7 @@ import {RouterLink} from "@angular/router";
 @Component({
   selector: 'app-coding-vision',
   standalone: true,
-    imports: [
+  imports: [
                 MatCard,
                 MatCardHeader,
                 MatCardContent,

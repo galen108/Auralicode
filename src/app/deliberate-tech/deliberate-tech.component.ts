@@ -5,7 +5,7 @@ import {RouterLink} from "@angular/router";
 @Component({
   selector: 'app-deliberate-tech',
   standalone: true,
-    imports: [
+  imports: [
                 MatCard,
                 MatCardHeader,
                 MatCardContent,

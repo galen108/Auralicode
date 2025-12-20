@@ -15,7 +15,7 @@ import {CapabilitiesComponent} from "./capabilities/capabilities.component";
 import {ServicesComponent} from "./services/services.component";
 import {WebFoundationsComponent} from "./web-foundations/web-foundations.component"
 import {WebApplicationsComponent} from "./web-applications/web-applications.component"
-import {RobustWebAppsComponent} from "./robust-web-apps/robust-web-app.component"
+import {RobustWebAppsComponent} from "./robust-web-apps/robust-web-apps.component"
 import {EnterpriseGradeComponent} from "./enterprise-grade/enterprise-grade.component"
 import {PortfolioComponent} from "./portfolio/portfolio.component";
 import {ResumeComponent} from "./resume/resume.component"

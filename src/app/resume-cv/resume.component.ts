@@ -6,12 +6,12 @@ import {RouterLink} from "@angular/router";
   selector: 'app-resume',
   standalone: true,
   imports: [
-          MatCard,
-          MatCardHeader,
-          MatCardContent,
-          MatCardImage,
-          MatCardFooter,
-          RouterLink
+                MatCard,
+                MatCardHeader,
+                MatCardContent,
+                MatCardImage,
+                MatCardFooter,
+                RouterLink
       ],
   templateUrl: './resume.component.html',
   styleUrl: './resume.component.css'

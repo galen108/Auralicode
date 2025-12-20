@@ -5,7 +5,7 @@ import {RouterLink} from "@angular/router";
 @Component({
   selector: 'app-system-coherence',
   standalone: true,
-    imports: [
+  imports: [
                 MatCard,
                 MatCardHeader,
                 MatCardContent,

@@ -5,7 +5,7 @@ import {RouterLink} from "@angular/router";
 @Component({
   selector: 'app-capabilities',
   standalone: true,
-    imports: [
+  imports: [
                 MatCard,
                 MatCardHeader,
                 MatCardContent,

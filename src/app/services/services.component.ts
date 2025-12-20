@@ -13,24 +13,24 @@ import {EnterpriseGradeComponent} from "../enterprise-grade/enterprise-grade.com
 @Component({
   selector: 'app-services',
   standalone: true,
-    imports: [
-        MatCard,
-        MatCardHeader,
-        MatCardContent,
-        MatExpansionPanel,
-        MatExpansionPanelHeader,
-        MatExpansionPanelTitle,
-        MatExpansionPanelDescription,
-        PdfViewerModule,
-        MatCardFooter,
-        RouterLink,
-        MatListItem,
-        RouterLinkActive,
-        WebFoundationsComponent,
-        WebApplicationsComponent,
-        RobustWebAppsComponent,
-        EnterpriseGradeComponent
-    ],
+  imports: [
+                    MatCard,
+                    MatCardHeader,
+                    MatCardContent,
+                    MatExpansionPanel,
+                    MatExpansionPanelHeader,
+                    MatExpansionPanelTitle,
+                    MatExpansionPanelDescription,
+                    PdfViewerModule,
+                    MatCardFooter,
+                    RouterLink,
+                    MatListItem,
+                    RouterLinkActive,
+                    WebFoundationsComponent,
+                    WebApplicationsComponent,
+                    RobustWebAppsComponent,
+                    EnterpriseGradeComponent
+            ],
   templateUrl: './services.component.html',
   styleUrl: './services.component.css'
 })
