@@ -3,7 +3,7 @@ import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} fro
 import {RouterLink} from "@angular/router";
 
 @Component({
-  selector: 'app-resume',
+  selector: 'app-resume-cv',
   standalone: true,
   imports: [
                 MatCard,
@@ -13,7 +13,7 @@ import {RouterLink} from "@angular/router";
                 MatCardFooter,
                 RouterLink
       ],
-  templateUrl: './resume.component.html',
-  styleUrl: './resume.component.css'
+  templateUrl: './resume-cv.component.html',
+  styleUrl: './resume-cv.component.css'
 })
-export class ResumeComponent {}
+export class ResumeCvComponent {}

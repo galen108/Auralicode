@@ -18,7 +18,7 @@ import {WebApplicationsComponent} from "./web-applications/web-applications.comp
 import {RobustWebAppsComponent} from "./robust-web-apps/robust-web-apps.component"
 import {EnterpriseGradeComponent} from "./enterprise-grade/enterprise-grade.component"
 import {PortfolioComponent} from "./portfolio/portfolio.component";
-import {ResumeComponent} from "./resume/resume.component"
+import {ResumeCvComponent} from "./resume-cv/resume-cv.component"
 import {ContactComponent} from "./contact/contact.component";
 import {BreakpointObserver, Breakpoints} from "@angular/cdk/layout";
 import {Observable} from "rxjs";
@@ -51,7 +51,7 @@ import {PdfViewerModule} from "ng2-pdf-viewer";
     RobustWebAppsComponent,
     EnterpriseGradeComponent,
     PortfolioComponent,
-    ResumeComponent,
+    ResumeCvComponent,
     ContactComponent,
     PdfViewerModule],
   templateUrl: './app.component.html',

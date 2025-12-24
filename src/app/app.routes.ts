@@ -11,7 +11,7 @@ import {RobustWebAppsComponent} from "./robust-web-apps/robust-web-apps.componen
 import {WebApplicationsComponent} from "./web-applications/web-applications.component";
 import {EnterpriseGradeComponent} from "./enterprise-grade/enterprise-grade.component";
 import {PortfolioComponent} from "./portfolio/portfolio.component";
-import {ResumeComponent} from "./resume-cv/resume.component";
+import {ResumeCvComponent} from "./resume-cv/resume-cv.component";
 import {ContactComponent} from "./contact/contact.component";
 
 
@@ -30,5 +30,5 @@ export const routes: Routes = [
   {path: 'robust-web-apps', component: RobustWebAppsComponent},
   {path: 'enterprise-grade', component: EnterpriseGradeComponent},
   {path: 'portfolio', component: PortfolioComponent},
-  {path: 'resume', component: ResumeComponent},
+  {path: 'resume-cv', component: ResumeCvComponent},
   {path: 'contact', component: ContactComponent}];

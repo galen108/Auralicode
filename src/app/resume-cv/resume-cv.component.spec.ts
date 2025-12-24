@@ -1,10 +1,10 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ResumeComponent } from './resume.component';
+import { ResumeCvComponent } from './resume-cv.component';
 
 describe('ResumeCvComponent', () => {
-  let component: ResumeComponent;
-  let fixture: ComponentFixture<ResumeComponent>;
+  let component: ResumeCvComponent;
+  let fixture: ComponentFixture<ResumeCvComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -12,7 +12,7 @@ describe('ResumeCvComponent', () => {
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ResumeComponent);
+    fixture = TestBed.createComponent(ResumeCvComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
