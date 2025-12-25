@@ -9,7 +9,7 @@
 .graphic {
   display: flex;
   width: auto;
-  height: 80%;
+  height: auto;
   background-color: linen;
   justify-content: center;
   align-items: center;
