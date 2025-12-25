@@ -6,23 +6,23 @@
   justify-content: center;
   align-items: center;
 }
-img {
+.graphic {
   display: flex;
-  flex-direction: column;
-  align-self: center;
-  width: 60%;
+  width: 100%;
   height: auto;
+  background-color: linen;
+  justify-content: center;
+  align-items: center;
 }
-.graphic #landscape {
+.graphic #profile-pic {
   align-self: center;
-  width: auto;
-  height: 286px;
+  width: 75%;
+  height: 75%;
 }
 .body {
   display: flex;
   width: 100%;
   height: auto;
-
   background-color: linen;
   justify-content: center;
   align-items: center;

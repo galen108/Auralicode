@@ -34,7 +34,7 @@ img {
   align-self: center;
   text-align: center;
   font-size: large;
-  /*width: 600px;*/
+  *width: 600px;
   height: auto;
   margin: 1em;
 }
