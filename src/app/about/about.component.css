@@ -8,8 +8,8 @@
 }
 .graphic {
   display: flex;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 80%;
   background-color: linen;
   justify-content: center;
   align-items: center;
@@ -23,6 +23,7 @@
   display: flex;
   width: 100%;
   height: auto;
+
   background-color: linen;
   justify-content: center;
   align-items: center;
