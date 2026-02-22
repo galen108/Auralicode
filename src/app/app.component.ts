@@ -8,6 +8,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import {HomeComponent} from "./home/home.component";
 import {AboutComponent} from "./about/about.component"
+import {FounderBioComponent} from "./founder-bio/founder-bio.component";
 import {CodingVisionComponent} from "./coding-vision/coding-vision.component"
 import {SystemCoherenceComponent} from "./system-coherence/system-coherence.component"
 import {DeliberateTechComponent} from "./deliberate-tech/deliberate-tech.component"
@@ -32,15 +33,16 @@ import {PdfViewerModule} from "ng2-pdf-viewer";
     RouterOutlet,
     RouterLink,
     RouterLinkActive,
+    AsyncPipe,
+    NgOptimizedImage,
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
     MatListModule,
     MatIconModule,
-    AsyncPipe,
-    NgOptimizedImage,
     HomeComponent,
     AboutComponent,
+    FounderBioComponent,
     CodingVisionComponent,
     SystemCoherenceComponent,
     DeliberateTechComponent,

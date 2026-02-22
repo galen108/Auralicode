@@ -6,6 +6,18 @@
   justify-content: center;
   align-items: center;
 }
+.graphic {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: linen;
+  justify-content: center;
+  align-items: center;
+}
+.graphic #profile-pic {
+  align-self: center;
+  width: 80%;
+}
 .body {
   display: flex;
   width: 100%;

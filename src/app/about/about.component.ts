@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} from "@angular/material/card";
+import {MatCard, MatCardHeader, MatCardContent, MatCardFooter} from "@angular/material/card";
 import {RouterLink} from "@angular/router";
 
 @Component({
@@ -9,7 +9,6 @@ import {RouterLink} from "@angular/router";
                 MatCard,
                 MatCardHeader,
                 MatCardContent,
-                MatCardImage,
                 MatCardFooter,
                 RouterLink
           ],

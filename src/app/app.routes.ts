@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import {HomeComponent} from "./home/home.component";
 import {AboutComponent} from "./about/about.component";
+import {FounderBioComponent} from "./founder-bio/founder-bio.component";
 import {CodingVisionComponent} from "./coding-vision/coding-vision.component";
 import {SystemCoherenceComponent} from "./system-coherence/system-coherence.component";
 import {DeliberateTechComponent} from "./deliberate-tech/deliberate-tech.component";
@@ -20,6 +21,7 @@ export const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: 'home'},
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
+  {path: 'founder-bio', component: FounderBioComponent},
   {path: 'coding-vision', component: CodingVisionComponent},
   {path: 'system-coherence', component: SystemCoherenceComponent},
   {path: 'deliberate-tech', component: DeliberateTechComponent},
