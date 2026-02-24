@@ -1,9 +1,10 @@
-// Add these to the VERY TOP of main.server.ts
 (global as any).window = {};
-(global as any).document = (global as any).window.document = {
+(global as any).document = {
   documentElement: { style: {} },
   createElement: () => ({ style: {} }),
 };
+(global as any).requestAnimationFrame = (cb: any) => setTimeout(cb, 0);
+(global as any).cancelAnimationFrame = (id: any) => clearTimeout(id);
 (global as any).Node = {};
 (global as any).navigator = { userAgent: '' };
 (global as any).Event = {};
