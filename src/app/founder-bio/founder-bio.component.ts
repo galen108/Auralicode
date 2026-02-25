@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} from "@angular/material/card";
 import {RouterLink, RouterLinkActive} from "@angular/router";
-import {MatListItem} from "@angular/material/list";
+// import {MatListItem} from "@angular/material/list";
 
 @Component({
   selector: 'app-founder-bio',
@@ -13,7 +13,6 @@ import {MatListItem} from "@angular/material/list";
     MatCardImage,
     MatCardFooter,
     RouterLink,
-    MatListItem,
     RouterLinkActive
   ],
   templateUrl: './founder-bio.component.html',
