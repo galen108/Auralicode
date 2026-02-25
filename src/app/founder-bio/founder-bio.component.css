@@ -18,8 +18,7 @@
   overflow: hidden; /* Prevents the image from bleeding out */
 }
 /* The Image itself - targeting the tag inside the class */
-.graphic img,
-.graphic .mat-optimized-image {
+.graphic img {
   max-width: 100% !important;
   height: auto !important;
   display: block;
