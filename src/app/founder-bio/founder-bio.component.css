@@ -19,7 +19,7 @@
 }
 /* The Image itself - targeting the tag inside the class */
 .graphic img {
-  max-width: 100% !important;
+  max-width: 60% !important;
   height: auto !important;
   display: block;
 }
