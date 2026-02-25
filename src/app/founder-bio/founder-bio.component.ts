@@ -1,7 +1,7 @@
 import { Component, Inject, PLATFORM_ID, OnInit } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 
-import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} from "@angular/material/card";
+import {MatCard, MatCardHeader, MatCardContent, MatCardFooter} from "@angular/material/card";
 import {RouterLink, RouterLinkActive} from "@angular/router";
 
 @Component({
@@ -11,7 +11,6 @@ import {RouterLink, RouterLinkActive} from "@angular/router";
                 MatCard,
                 MatCardHeader,
                 MatCardContent,
-                MatCardImage,
                 MatCardFooter,
                 RouterLink,
                 RouterLinkActive
