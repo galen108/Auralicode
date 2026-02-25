@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {MatCard, MatCardHeader, MatCardContent, MatCardFooter} from "@angular/material/card";
 import {RouterLink, RouterLinkActive} from "@angular/router";
 import {MatListItem} from "@angular/material/list";
+import { ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-founder-bio',
@@ -16,7 +17,8 @@ import {MatListItem} from "@angular/material/list";
     RouterLinkActive
   ],
   templateUrl: './founder-bio.component.html',
-  styleUrl: './founder-bio.component.css'
+  styleUrls: ['./founder-bio.component.css'],
+  encapsulation: ViewEncapsulation.None // This kills the scoping
 })
 export class FounderBioComponent {}
 
