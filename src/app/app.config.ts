@@ -1,13 +1,16 @@
-import { ApplicationConfig, importProvidersFrom } from '@angular/core';
+import { ApplicationConfig, PLATFORM_ID, Inject } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { routes } from './app.routes';
-import { provideAnimations } from '@angular/platform-browser/animations'; // Changed this
+import { provideAnimations } from '@angular/platform-browser/animations';
 import { provideClientHydration } from '@angular/platform-browser';
+import { isPlatformBrowser } from '@angular/common';
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
-    provideAnimations(), // Standard animations are more SSR-stable than Async in V17
+    // We keep these, but the 'Hydration' will now
+    // safely ignore the server-side 'window' calls
+    provideAnimations(),
     provideClientHydration()
   ]
 };
