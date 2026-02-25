@@ -2,3 +2,21 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Lora; }
+
+/* The Container */
+.graphic {
+  display: flex;
+  width: 60%;
+  height: auto;
+  background-color: linen;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Optional: centers the 60% box on the page */
+  overflow: hidden; /* Prevents the image from bleeding out */
+}
+/* The Image itself - targeting the tag inside the class */
+.graphic img {
+  max-width: 60% !important;
+  height: auto !important;
+  display: block;
+}
