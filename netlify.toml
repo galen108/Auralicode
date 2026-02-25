@@ -2,10 +2,12 @@
 package = "@netlify/angular-runtime"
 [plugins.inputs]
 disable_ssr = true
+# This extra flag can sometimes help bypass the auto-detection
+handle_browser_only = true
 
 [build]
-command = "npm run build"
-publish = "dist/auralicode/browser"
+command = "ng build"
+publish = "dist/auralicode"
 
 [[redirects]]
 from = "/*"
