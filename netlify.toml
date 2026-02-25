@@ -5,8 +5,8 @@ disable_ssr = true
 handle_browser_only = true
 
 [build]
-command = "npm run build && find dist -maxdepth 2"
-publish = "dist/auralicode/browser"
+command = "npm run build"
+publish = "dist/site-static"
 
 [[redirects]]
 from = "/*"
