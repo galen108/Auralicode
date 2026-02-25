@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production",
-    "watch": "ng build --watch --configuration development",
+    "build": "ng run build",
+    "watch": "ng run build --watch",
     "test": "ng test",
     "serve:ssr:Auralicode": "node dist/auralicode/server/server.mjs"
   },
