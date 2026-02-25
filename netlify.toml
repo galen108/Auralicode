@@ -7,7 +7,7 @@ handle_browser_only = true
 
 [build]
 command = "ng build"
-publish = "dist/auralicode"
+publish = "dist/site-static"
 
 [[redirects]]
 from = "/*"
