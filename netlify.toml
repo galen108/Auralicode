@@ -1,4 +1,3 @@
-[[plugins]]
 [plugins.inputs]
 disable_ssr = true
 handle_browser_only = true
