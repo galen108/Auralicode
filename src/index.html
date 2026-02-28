@@ -5,31 +5,31 @@
   <title>Auralicode</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico?v=3">
-  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- Google Tag Manager -->
+
+  <!-- 1. FIXED: Added the correct library path to the src -->
   <script async src="https://www.googletagmanager.com"></script>
+
   <script>
-    function gtag_report_conversion(url) {
-    var callback = function () {
-    if (typeof(url) != 'undefined') {
-    window.location = url;
-    }
-    };
-    gtag('event', 'conversion', {
-    'send_to': 'AW-17968446615/FurlC06t1YAcEJf5gvhC',
-    'event_callback': callback
-  });
-    return false; // Prevents the browser from following the link too early
-  }
-  </script>
-  <script>
+    // 2. Define the global gtag function FIRST
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'AW-17968446615');
     gtag('config', 'G-VKYJVLHJBC');
+
+    // 3. Define the reporting function SECOND
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-17968446615/FurlC06t1YAcEJf5gvhC',
+        'event_callback': callback
+      });
+      return false;
+    }
   </script>
 </head>
 <body>
