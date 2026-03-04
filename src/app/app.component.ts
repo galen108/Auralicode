@@ -5,7 +5,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
-import { MatIconModule } from '@angular/material/icon';
+import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import {HomeComponent} from "./home/home.component";
 import {AboutComponent} from "./about/about.component"
 import {FounderBioComponent} from "./founder-bio/founder-bio.component";
@@ -60,6 +60,14 @@ import {PdfViewerModule} from "ng2-pdf-viewer";
 })
 export class AppComponent {
   private breakpointObserver = inject(BreakpointObserver);
+
+  // Inject the registry here
+  private iconRegistry = inject(MatIconRegistry);
+
+  constructor() {
+    // This forces the "Symbols" font globally so your 'menu' icon works
+    this.iconRegistry.setDefaultFontSetClass('material-symbols-outlined');
+  }
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
