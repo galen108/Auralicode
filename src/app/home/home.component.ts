@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {MatIconModule} from "@angular/material/icon";
 import {MatCard, MatCardHeader, MatCardContent, MatCardImage, MatCardFooter} from "@angular/material/card";
 import {RouterLink} from "@angular/router";
 
@@ -6,6 +7,7 @@ import {RouterLink} from "@angular/router";
   selector: 'app-home',
   standalone: true,
   imports: [
+                MatIconModule,
                 MatCard,
                 MatCardHeader,
                 MatCardContent,
