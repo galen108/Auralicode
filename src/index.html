@@ -4,53 +4,40 @@
   <meta charset="utf-8">
   <title>Auralicode</title>
   <base href="/">
+  <link href="https://fonts.googleapis.com" rel="stylesheet" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ProfessionalService",
-        "name": "Auralicode LLC",
-        "founder": "Galen Tenney",
-        "description": "Bespoke software systems designed with intentional architecture and human-led craftsmanship.",
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Auralicode LLC",
+      "description": "Bespoke software systems designed with intentional architecture and human-led craftsmanship.",
+      "founder": {
+        "@type": "Person",
+        "name": "Galen Tenney",
         "knowsAbout": [
-          "React",
-          "Angular",
-          "Vue.js",
-          "Next.js",
-          "React Native",
-          "Node.js",
-          "Express",
-          "Java & JVM Ecosystem",
-          "Groovy",
-          "Grails",
-          "Python",
-          "Ruby on Rails",
-          "Go",
-          "PHP",
-          "IntelliJ IDEA Ultimate",
-          "Claude Code AI",
-          "Junie AI",
-          "AI-Augmented Development",
-          "SQL",
-          "NoSQL",
-          "Docker",
-          "Kubernetes",
-          "REST",
-          "GraphQL",
-          "Cypress"
-        ],
-        "softwareHelp": "IntelliJ IDEA Ultimate, Claude Code, Junie AI",
-        "offers": {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Human-Led, AI-Enhanced Web Development",
-            "description": "Custom application development leveraging advanced AI workflows for high-performance, human-reviewed code."
+          "React", "Angular", "Vue.js", "Next.js", "React Native", "Node.js", "Express",
+          "Java & JVM Ecosystem", "Groovy", "Grails", "Python", "Ruby on Rails", "Go", "PHP",
+          "IntelliJ IDEA Ultimate", "Claude Code AI", "Junie AI", "AI-Augmented Development",
+          "SQL", "NoSQL", "Docker", "Kubernetes", "REST", "GraphQL", "Cypress"
+        ]
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Service Catalog",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Human-Led, AI-Enhanced Web Development",
+              "description": "Custom application development leveraging advanced AI workflows for high-performance, human-reviewed code."
+            }
           }
-        },
-        "type": "assertion"
+        ]
       }
-    </script>
+    }
+  </script>
     <!-- 1. FIXED: Added the correct library path to the src -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17968446615"></script>
     <script>
@@ -75,7 +62,7 @@
             return false;
         }
     </script>
-  <link href="https://fonts.googleapis.com" rel="stylesheet">head>
+</head>
 <body>
 <app-root></app-root>
 </body>
