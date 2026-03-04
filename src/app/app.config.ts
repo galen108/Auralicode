@@ -1,4 +1,6 @@
 import { ApplicationConfig } from '@angular/core';
+import { inject } from '@angular/core';
+import { MatIconRegistry } from '@angular/material/icon';
 import {
   provideRouter,
   withInMemoryScrolling,
@@ -27,3 +29,9 @@ export const appConfig: ApplicationConfig = {
     provideAnimationsAsync()
   ]
 };
+export class AppComponent {
+  constructor() {
+    const iconRegistry = inject(MatIconRegistry);
+    iconRegistry.setDefaultFontSetClass('material-symbols-outlined');
+  }
+}
