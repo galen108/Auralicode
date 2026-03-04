@@ -5,32 +5,54 @@
   <title>Auralicode</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- 1. FIXED: Added the correct library path to the src -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17968446615"></script>
-
-  <script>
-    // 2. Define the global gtag function FIRST
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-17968446615');
-    gtag('config', 'G-VKYJVLHJBC');
-
-    // 3. Define the reporting function SECOND
-    function gtag_report_conversion(url) {
-      const callback = function () {
-        if (typeof (url) != 'undefined') {
-          window.location = url;
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ProfessionalService",
+            "name": "Auralicode LLC",
+            "founder": "Galen Tenney",
+            "description": "Bespoke software systems designed with intentional architecture and human-led craftsmanship.",
+            "knowsAbout": [
+                "React", "Angular", "Vue.js", "Next.js", "React Native", "Node.js", "Express",
+                "Java & JVM Ecosystem", "Groovy", "Grails", "Python", "Ruby on Rails", "Go", "PHP",
+                "IntelliJ IDEA Ultimate", "Claude Code AI", "Junie AI", "AI-Augmented Development",
+                "SQL", "NoSQL", "Docker", "Kubernetes", "REST", "GraphQL", "Cypress"
+            ],
+            "softwareHelp": "IntelliJ IDEA Ultimate, Claude Code, Junie AI",
+            "offers": {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Human-Led, AI-Enhanced Web Development",
+                    "description": "Custom application development leveraging advanced AI workflows for high-performance, human-reviewed code."
+                }
+            }
         }
-      };
-      gtag('event', 'conversion', {
-        'send_to': 'AW-17968446615/FurlC06t1YAcEJf5gvhC',
-        'event_callback': callback
-      });
-      return false;
-    }
-  </script>
+    </script>
+    <!-- 1. FIXED: Added the correct library path to the src -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17968446615"></script>
+    <script>
+    // 2. Define the global gtag function FIRST
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-17968446615');
+        gtag('config', 'G-VKYJVLHJBC');
+    // 3. Define the reporting function SECOND
+    // Corrected to use Capital O: FurlCO6t1YAcEJf5gvhC
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof(url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-17968446615/FurlCO6t1YAcEJf5gvhC',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
 </head>
 <body>
 <app-root></app-root>
