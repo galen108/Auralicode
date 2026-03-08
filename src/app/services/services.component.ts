@@ -2,7 +2,7 @@ import { Component, OnInit, inject } from '@angular/core'; // inject is here
 import { Title, Meta } from '@angular/platform-browser'; // Title and Meta are here
 import { MatCard, MatCardHeader, MatCardContent, MatCardFooter } from "@angular/material/card";
 import {RouterLink, RouterLinkActive} from "@angular/router";
-import {MatList, MatListItem} from "@angular/material/list";
+import {MatAnchor} from "@angular/material/button";
 
 @Component({
   selector: 'app-services',
@@ -13,9 +13,8 @@ import {MatList, MatListItem} from "@angular/material/list";
     MatCardContent,
     MatCardFooter,
     RouterLink,
-    MatListItem,
     RouterLinkActive,
-    MatList
+    MatAnchor
   ],
   templateUrl: './services.component.html',
   styleUrl: './services.component.css'
