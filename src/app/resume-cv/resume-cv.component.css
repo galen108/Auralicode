@@ -6,6 +6,18 @@
   justify-content: center;
   align-items: center;
 }
+.resume-button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Spacing between buttons */
+  margin-top: 24px;
+  max-width: 600px; /* Keeps them from being TOO wide on desktop */
+}
+/* Ensure the Material buttons take up the full container width */
+.resume-button-container a {
+  width: 100%;
+  padding: 8px 0; /* Adds a bit of vertical 'hit area' */
+}
 .body {
   display: flex;
   width: 100%;

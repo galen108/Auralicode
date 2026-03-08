@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { ResumeCvComponent } from './resume-cv.component';
 
 describe('ResumeCvComponent', () => {
@@ -8,7 +7,7 @@ describe('ResumeCvComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ResumeComponent]
+      imports: [ResumeCvComponent]
     })
     .compileComponents();
 
