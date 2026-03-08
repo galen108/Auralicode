@@ -1,6 +1,7 @@
 import { Component, OnInit, inject } from '@angular/core'; // inject is here
 import { Title, Meta } from '@angular/platform-browser'; // Title and Meta are here
 import { MatCard, MatCardHeader, MatCardContent, MatCardFooter } from "@angular/material/card";
+import { MatButtonModule } from "@angular/material/button";
 
 @Component({
   selector: 'app-contact',
@@ -9,7 +10,8 @@ import { MatCard, MatCardHeader, MatCardContent, MatCardFooter } from "@angular/
     MatCard,
     MatCardHeader,
     MatCardContent,
-    MatCardFooter
+    MatCardFooter,
+    MatButtonModule
   ],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.css'
