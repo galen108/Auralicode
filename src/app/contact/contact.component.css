@@ -11,7 +11,7 @@
   flex-direction: column;
   gap: 16px; /* Spacing between buttons */
   margin-top: 24px;
-  max-width: 300px; /* Keeps them from being TOO wide on desktop */
+  max-width: 600px; /* Keeps them from being TOO wide on desktop */
 }
 /* Ensure the Material buttons take up the full container width */
 .contact-button-container a {
