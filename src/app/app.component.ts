@@ -4,6 +4,7 @@ import { AsyncPipe } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { platformBrowser } from "@angular/platform-browser";
 import { MatListModule } from '@angular/material/list';
 import { PortfolioComponent } from "./portfolio/portfolio.component";
 import { BreakpointObserver, Breakpoints } from "@angular/cdk/layout";
@@ -28,6 +29,9 @@ import { PdfViewerModule } from "ng2-pdf-viewer";
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+  public platformBrowser: any = platformBrowser;
+  public ariaCurrentWhenActive: boolean = true;
+
   private breakpointObserver = inject(BreakpointObserver);
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
