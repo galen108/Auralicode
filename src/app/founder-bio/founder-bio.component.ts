@@ -3,6 +3,7 @@ import { platformBrowser, Title, Meta } from '@angular/platform-browser'; // Tit
 import { MatCard, MatCardHeader, MatCardContent, MatCardFooter } from "@angular/material/card";
 import { MatListModule, MatListItem } from "@angular/material/list";
 import { RouterLink, RouterLinkActive } from "@angular/router";
+import { MatAnchor } from "@angular/material/button";
 
 
 @Component({
@@ -15,7 +16,8 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
         MatListModule,
         MatListItem,
         RouterLink,
-        RouterLinkActive
+        RouterLinkActive,
+        MatAnchor
     ],
     templateUrl: './founder-bio.component.html',
     styleUrl: './founder-bio.component.css'
