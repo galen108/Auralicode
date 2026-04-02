@@ -4,17 +4,16 @@ import { MatCard, MatCardHeader, MatCardContent, MatCardFooter } from "@angular/
 import { MatButtonModule } from "@angular/material/button";
 
 @Component({
-  selector: 'app-contact',
-  standalone: true,
-  imports: [
-    MatCard,
-    MatCardHeader,
-    MatCardContent,
-    MatCardFooter,
-    MatButtonModule
-  ],
-  templateUrl: './contact.component.html',
-  styleUrl: './contact.component.css'
+    selector: 'app-contact',
+    imports: [
+        MatCard,
+        MatCardHeader,
+        MatCardContent,
+        MatCardFooter,
+        MatButtonModule
+    ],
+    templateUrl: './contact.component.html',
+    styleUrl: './contact.component.css'
 })
 export class ContactComponent implements OnInit {
   // These should be defined inside the class, but before the ngOnInit

@@ -4,17 +4,16 @@ import { MatCard, MatCardHeader, MatCardContent, MatCardFooter } from "@angular/
 import { RouterLink } from "@angular/router";
 
 @Component({
-  selector: 'app-web-foundations',
-  standalone: true,
-  imports: [
-    MatCard,
-    MatCardHeader,
-    MatCardContent,
-    MatCardFooter,
-    RouterLink
-  ],
-  templateUrl: './web-foundations.component.html',
-  styleUrl: './web-foundations.component.css'
+    selector: 'app-web-foundations',
+    imports: [
+        MatCard,
+        MatCardHeader,
+        MatCardContent,
+        MatCardFooter,
+        RouterLink
+    ],
+    templateUrl: './web-foundations.component.html',
+    styleUrl: './web-foundations.component.css'
 })
 export class WebFoundationsComponent implements OnInit {
   // These should be defined inside the class, but before the ngOnInit

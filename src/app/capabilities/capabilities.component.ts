@@ -4,17 +4,16 @@ import { MatCard, MatCardHeader, MatCardContent, MatCardFooter } from "@angular/
 import { RouterLink } from "@angular/router";
 
 @Component({
-  selector: 'app-capabilities',
-  standalone: true,
-  imports: [
-    MatCard,
-    MatCardHeader,
-    MatCardContent,
-    MatCardFooter,
-    RouterLink
-  ],
-  templateUrl: './capabilities.component.html',
-  styleUrl: './capabilities.component.css'
+    selector: 'app-capabilities',
+    imports: [
+        MatCard,
+        MatCardHeader,
+        MatCardContent,
+        MatCardFooter,
+        RouterLink
+    ],
+    templateUrl: './capabilities.component.html',
+    styleUrl: './capabilities.component.css'
 })
 export class CapabilitiesComponent implements OnInit {
   // These should be defined inside the class, but before the ngOnInit

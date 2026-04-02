@@ -6,20 +6,19 @@ import { RouterLink, RouterLinkActive } from "@angular/router";
 
 
 @Component({
-  selector: 'app-founder-bio',
-  standalone: true,
-  imports: [
-    MatCard,
-    MatCardHeader,
-    MatCardContent,
-    MatCardFooter,
-    MatListModule,
-    MatListItem,
-    RouterLink,
-    RouterLinkActive
-  ],
-  templateUrl: './founder-bio.component.html',
-  styleUrl: './founder-bio.component.css'
+    selector: 'app-founder-bio',
+    imports: [
+        MatCard,
+        MatCardHeader,
+        MatCardContent,
+        MatCardFooter,
+        MatListModule,
+        MatListItem,
+        RouterLink,
+        RouterLinkActive
+    ],
+    templateUrl: './founder-bio.component.html',
+    styleUrl: './founder-bio.component.css'
 })
 export class FounderBioComponent implements OnInit {
   public platformBrowser: any = platformBrowser;

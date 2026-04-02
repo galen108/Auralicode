@@ -3,16 +3,15 @@ import { Title, Meta } from '@angular/platform-browser'; // Title and Meta are h
 import { MatCard, MatCardHeader, MatCardContent, MatCardFooter } from "@angular/material/card";
 
 @Component({
-  selector: 'app-system-coherence',
-  standalone: true,
-  imports: [
-    MatCard,
-    MatCardHeader,
-    MatCardContent,
-    MatCardFooter
-  ],
-  templateUrl: './system-coherence.component.html',
-  styleUrl: './system-coherence.component.css'
+    selector: 'app-system-coherence',
+    imports: [
+        MatCard,
+        MatCardHeader,
+        MatCardContent,
+        MatCardFooter
+    ],
+    templateUrl: './system-coherence.component.html',
+    styleUrl: './system-coherence.component.css'
 })
 export class SystemCoherenceComponent implements OnInit {
   // These should be defined inside the class, but before the ngOnInit

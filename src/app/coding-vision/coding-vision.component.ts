@@ -3,16 +3,15 @@ import { Title, Meta } from '@angular/platform-browser'; // Title and Meta are h
 import { MatCard, MatCardHeader, MatCardContent, MatCardFooter } from "@angular/material/card";
 
 @Component({
-  selector: 'app-coding-vision',
-  standalone: true,
-  imports: [
-    MatCard,
-    MatCardHeader,
-    MatCardContent,
-    MatCardFooter
-  ],
-  templateUrl: './coding-vision.component.html',
-  styleUrl: './coding-vision.component.css'
+    selector: 'app-coding-vision',
+    imports: [
+        MatCard,
+        MatCardHeader,
+        MatCardContent,
+        MatCardFooter
+    ],
+    templateUrl: './coding-vision.component.html',
+    styleUrl: './coding-vision.component.css'
 })
 export class CodingVisionComponent implements OnInit {
   // These should be defined inside the class, but before the ngOnInit

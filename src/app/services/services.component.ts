@@ -5,19 +5,18 @@ import {RouterLink, RouterLinkActive} from "@angular/router";
 import {MatAnchor} from "@angular/material/button";
 
 @Component({
-  selector: 'app-services',
-  standalone: true,
-  imports: [
-    MatCard,
-    MatCardHeader,
-    MatCardContent,
-    MatCardFooter,
-    RouterLink,
-    RouterLinkActive,
-    MatAnchor
-  ],
-  templateUrl: './services.component.html',
-  styleUrl: './services.component.css'
+    selector: 'app-services',
+    imports: [
+        MatCard,
+        MatCardHeader,
+        MatCardContent,
+        MatCardFooter,
+        RouterLink,
+        RouterLinkActive,
+        MatAnchor
+    ],
+    templateUrl: './services.component.html',
+    styleUrl: './services.component.css'
 })
 export class ServicesComponent implements OnInit {
   // These should be defined inside the class, but before the ngOnInit

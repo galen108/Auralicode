@@ -4,17 +4,16 @@ import { MatCard, MatCardHeader, MatCardContent, MatCardFooter } from "@angular/
 import {MatAnchor} from "@angular/material/button";
 
 @Component({
-  selector: 'app-resume-cv',
-  standalone: true,
-  imports: [
-    MatCard,
-    MatCardHeader,
-    MatCardContent,
-    MatCardFooter,
-    MatAnchor
-  ],
-  templateUrl: './resume-cv.component.html',
-  styleUrl: './resume-cv.component.css'
+    selector: 'app-resume-cv',
+    imports: [
+        MatCard,
+        MatCardHeader,
+        MatCardContent,
+        MatCardFooter,
+        MatAnchor
+    ],
+    templateUrl: './resume-cv.component.html',
+    styleUrl: './resume-cv.component.css'
 })
 export class ResumeCvComponent implements OnInit {
   // These should be defined inside the class, but before the ngOnInit

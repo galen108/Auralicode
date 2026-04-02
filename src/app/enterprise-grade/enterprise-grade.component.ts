@@ -4,17 +4,16 @@ import { MatCard, MatCardHeader, MatCardContent, MatCardFooter } from "@angular/
 import { RouterLink } from "@angular/router";
 
 @Component({
-  selector: 'app-enterprise-grade',
-  standalone: true,
-  imports: [
-    MatCard,
-    MatCardHeader,
-    MatCardContent,
-    MatCardFooter,
-    RouterLink
-  ],
-  templateUrl: './enterprise-grade.component.html',
-  styleUrl: './enterprise-grade.component.css'
+    selector: 'app-enterprise-grade',
+    imports: [
+        MatCard,
+        MatCardHeader,
+        MatCardContent,
+        MatCardFooter,
+        RouterLink
+    ],
+    templateUrl: './enterprise-grade.component.html',
+    styleUrl: './enterprise-grade.component.css'
 })
 export class EnterpriseGradeComponent implements OnInit {
   // These should be defined inside the class, but before the ngOnInit
