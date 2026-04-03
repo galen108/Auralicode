@@ -21,8 +21,10 @@ export class ContactComponent implements OnInit {
   private titleService = inject(Title);
   private metaService = inject(Meta);
   private sanitizer = inject(DomSanitizer);
-  // Mark the URL as trusted
-  smsLink: SafeUrl = this.sanitizer.bypassSecurityTrustUrl("sms:+13015805172?&body=Hi Founder! I'm interested in connecting.");
+  // One line. No 'this.' needed here.
+  public smsLink: SafeUrl = this.sanitizer.bypassSecurityTrustUrl(
+    'sms:+13015805172?&body=Hi Galen! I want to build something worth keeping...'
+  );
 
   ngOnInit(): void {
     // These should work now because 'this.titleService' matches the variable above
