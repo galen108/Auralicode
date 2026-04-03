@@ -16,8 +16,8 @@
     <section class="contact-methods">
       <div class="contact-button-container">
         <!-- Primary Action: High Visibility -->
-        <a mat-raised-button class="mat-primary"
-           href="sms:+13015805172?&body=Hi Galen! I'm interested in building something worth keeping..." onclick="return gtag_report_conversion('sms:+13015805172');">
+        <a mat-raised-button class="mat-primary" href="sms:+13015805172?&body=Hi%20Galen!%20I%20want%20to%20build%20something%20worth%20keeping..."
+           (mousedown)="gtag_report_conversion('sms:+13015805172')" target="_self">
           TEXT ME
         </a>
         <!-- Secondary Action: Clear Contrast -->
