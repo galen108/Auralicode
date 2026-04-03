@@ -123,5 +123,15 @@
 </head>
 <body>
 <app-root></app-root>
+<script>
+  // This listener stays out of the way of the link's behavior
+  document.addEventListener('mousedown', function(e) {
+    if (e.target && e.target.id === 'sms-link') {
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion();
+      }
+    }
+  }, true);
+</script>
 </body>
 </html>
