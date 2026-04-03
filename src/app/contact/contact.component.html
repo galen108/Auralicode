@@ -16,17 +16,15 @@
     <section class="contact-methods">
       <div class="contact-button-container">
         <!-- Primary Action: High Visibility -->
-        <a mat-raised-button
-           class="mat-primary"
-           href="sms:+13015805172?&body=Hi Galen! I'm interested in learning about Auralicode LLC's services" onclick="return gtag_report_conversion('sms:+13015805172');">
+        <a mat-raised-button class="mat-primary" [href]="smsLink" onclick="return gtag_report_conversion('sms:+13015805172')">
           TEXT ME
         </a>
         <!-- Secondary Action: Clear Contrast -->
-        <a mat-stroked-button color="mat-primary" href="tel:+13015805172" onclick="return gtag_report_conversion('tel:+13015805172');">
+        <a mat-stroked-button class="mat-primary" href="tel:+13015805172" onclick="return gtag_report_conversion('tel:+13015805172');">
           CALL ME
         </a>
         <!-- Tertiary Action: Low Friction -->
-        <a mat-button color="mat-secondary" href="mailto:GalenTenney@Auralicode.onMicrosoft.com" onclick="return gtag_report_conversion('mailto:GalenTenney@Auralicode.onMicrosoft.com');">
+        <a mat-stroked-button class="mat-secondary" href="mailto:GalenTenney@Auralicode.onMicrosoft.com" onclick="return gtag_report_conversion('mailto:GalenTenney@Auralicode.onMicrosoft.com');">
           EMAIL ME
         </a>
       </div>
