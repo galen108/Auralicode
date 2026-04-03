@@ -24,13 +24,6 @@ export const appConfig: ApplicationConfig = {
       // This prevents 404s on refresh and ensures the back button always works in CSR
       withHashLocation(),
     ),
-    provideAnimationsAsync(),
-    {
-      provide: '$compileProvider',
-      useValue: (cp: any) => {
-        // This regex forces Angular to accept 'sms' as a safe protocol
-        cp.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|tel|sms):/);
-      }
-    }
+    provideAnimationsAsync()
   ]
 };

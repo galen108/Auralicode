@@ -96,30 +96,6 @@
       }
     }
   </script>
-  <!-- 1. FIXED: Added the correct library path to the src -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17968446615"></script>
-    <script>
-    // 2. Define the global gtag function FIRST
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'AW-17968446615');
-        gtag('config', 'G-VKYJVLHJBC');
-    // 3. Define the reporting function SECOND
-    // Corrected to use Capital O: FurlCO6t1YAcEJf5gvhC
-        function gtag_report_conversion(url) {
-            var callback = function () {
-                if (typeof(url) != 'undefined') {
-                    window.location = url;
-                }
-            };
-            gtag('event', 'conversion', {
-                'send_to': 'AW-17968446615/FurlCO6t1YAcEJf5gvhC',
-                'event_callback': callback
-            });
-            return false;
-        }
-    </script>
 </head>
 <body>
 <app-root></app-root>
