@@ -1,6 +1,5 @@
 import { Component, OnInit, inject } from '@angular/core'; // inject is here
 import { Title, Meta } from '@angular/platform-browser'; // Title and Meta are here
-import { DomSanitizer, SafeUrl } from '@angular/platform-browser'; // DomSanitizer and SafeUrl are here
 import { MatCard, MatCardHeader, MatCardContent, MatCardFooter } from "@angular/material/card";
 import { MatButtonModule } from "@angular/material/button";
 
@@ -17,21 +16,12 @@ import { MatButtonModule } from "@angular/material/button";
     styleUrl: './contact.component.css'
 })
 export class ContactComponent implements OnInit {
-  // These should be defined inside the class, but before the ngOnInit
+  // Tools (Private) - Only for this TS file
   private titleService = inject(Title);
   private metaService = inject(Meta);
-  private sanitizer = inject(DomSanitizer);
-  // One line. No 'this.' needed here.
-  public smsLink: SafeUrl = this.sanitizer.bypassSecurityTrustUrl(
-    'sms:+13015805172?&body=Hi Galen! I want to build something worth keeping...'
-  );
 
   ngOnInit(): void {
-    // These should work now because 'this.titleService' matches the variable above
     this.titleService.setTitle('My Vision | Auralicode');
-    this.metaService.updateTag({
-      name: 'Contact',
-      content: 'View my professional B2B web contact page.'
-    });
+    this.metaService.updateTag({ name: 'Contact', content: 'View my contact page.' });
   }
 }
