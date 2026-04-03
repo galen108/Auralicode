@@ -16,8 +16,9 @@
     <section class="contact-methods">
       <div class="contact-button-container">
         <!-- Primary Action: High Visibility -->
-        <a mat-raised-button class="mat-primary" href="sms:+13015805172;body=Hi%20Galen!%20I%20want%20to%20build%20something%20worth%20keeping..." target="_self"
-           onMouseDown="gtag_report_conversion('sms:+13015805172')">
+        <!-- No events, no scripts, no Angular brackets. Just a link. -->
+        <a mat-raised-button
+           class="mat-primary" href="sms:+13015805172;body=Hi%20Galen!%20I%20want%20to%20build%20something%20worth%20keeping..." target="_self" id="sms-link">
           TEXT ME
         </a>
         <!-- Secondary Action: Clear Contrast -->
