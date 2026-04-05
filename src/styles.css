@@ -2,4 +2,4 @@
 
 html, body { height: 100%; }
 body { margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif; !important; }
+  font-family: Menlo, Consolas, Monaco, "Courier New", monospace; !important; }
