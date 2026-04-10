@@ -22,7 +22,7 @@ export class CapabilitiesComponent implements OnInit {
 
   ngOnInit(): void {
     // These should work now because 'this.titleService' matches the variable above
-    this.titleService.setTitle('My Capabilities | Auralicode');
+    this.titleService.setTitle('My Stack | Auralicode');
     this.metaService.updateTag({
       name: 'Capabilities',
       content: 'View my professional B2B web development capabilities.'
