@@ -21,7 +21,7 @@ export class ContactComponent implements OnInit {
   private metaService = inject(Meta);
 
   ngOnInit(): void {
-    this.titleService.setTitle('My Vision | Auralicode');
+    this.titleService.setTitle('Reach Out | Auralicode');
     this.metaService.updateTag({ name: 'Contact', content: 'View my contact page.' });
   }
 }

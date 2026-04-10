@@ -22,9 +22,9 @@ export class EnterpriseGradeComponent implements OnInit {
 
   ngOnInit(): void {
     // These should work now because 'this.titleService' matches the variable above
-    this.titleService.setTitle('Foundational Service | Auralicode');
+    this.titleService.setTitle('Top-Level Service  | Auralicode');
     this.metaService.updateTag({
-      name: 'Web Foundations',
+      name: 'Enterprise Grade',
       content: 'View my professional B2B enterprise grade page.'
     });
   }

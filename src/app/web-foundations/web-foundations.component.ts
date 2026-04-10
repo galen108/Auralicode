@@ -22,7 +22,7 @@ export class WebFoundationsComponent implements OnInit {
 
   ngOnInit(): void {
     // These should work now because 'this.titleService' matches the variable above
-    this.titleService.setTitle('Foundational Service | Auralicode');
+    this.titleService.setTitle('Entry-Level Service | Auralicode');
     this.metaService.updateTag({
       name: 'Web Foundations',
       content: 'View my professional B2B web foundations page.'
