@@ -13,13 +13,12 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "outputPath": {
-              "base": "dist/site-static",
-              "browser": ""
-            },
+            "outputPath": "dist/site-static",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "ssr": false,
+            "ssr": {
+              "entry": "src/server.ts"
+            },
             "prerender": false,
             "polyfills": [
               "zone.js"
@@ -34,7 +33,12 @@
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "server": "src/main.server.ts",
+            "outputMode": "server",
+            "security": {
+              "allowedHosts": []
+            }
           },
           "configurations": {
             "production": {
