@@ -2,12 +2,12 @@ import { ApplicationConfig } from '@angular/core';
 import {
   provideRouter,
   withInMemoryScrolling,
-  withViewTransitions,
-  withHashLocation // The "Silver Bullet" for CSR routing stability
+  withViewTransitions
 } from '@angular/router';
 
 import { routes } from './app.routes';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { provideClientHydration } from '@angular/platform-browser';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -20,10 +20,9 @@ export const appConfig: ApplicationConfig = {
       }),
       // 2. Provides smooth CSS transitions between routes (Native feel)
       withViewTransitions(),
-      // 3. Forces the browser to handle routing via the URL hash (#)
-      // This prevents 404s on refresh and ensures the back button always works in CSR
-      withHashLocation(),
     ),
+    // 3. Essential for SSR: Bridges the gap between server-rendered HTML and browser interactivity
+    provideClientHydration(),
     provideAnimationsAsync()
   ]
 };
