@@ -1,8 +1,6 @@
 import { Component, OnInit, inject } from '@angular/core'; // inject is here
-import { platformBrowser, Title, Meta } from '@angular/platform-browser'; // Title and Meta are here
+import { Title, Meta } from '@angular/platform-browser';
 import { MatCard, MatCardHeader, MatCardContent, MatCardFooter } from "@angular/material/card";
-import { MatListModule, MatListItem } from "@angular/material/list";
-import { RouterLink, RouterLinkActive } from "@angular/router";
 import { MatAnchor } from "@angular/material/button";
 
 
@@ -13,17 +11,12 @@ import { MatAnchor } from "@angular/material/button";
         MatCardHeader,
         MatCardContent,
         MatCardFooter,
-        MatListModule,
-        MatListItem,
-        RouterLink,
-        RouterLinkActive,
         MatAnchor
     ],
     templateUrl: './founder-bio.component.html',
     styleUrl: './founder-bio.component.css'
 })
 export class FounderBioComponent implements OnInit {
-  public platformBrowser: any = platformBrowser;
   public ariaCurrentWhenActive: boolean = true;
   // These should be defined inside the class, but before the ngOnInit
   private titleService = inject(Title);

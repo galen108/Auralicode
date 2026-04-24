@@ -10,7 +10,6 @@ import { PortfolioComponent } from "./portfolio/portfolio.component";
 import { BreakpointObserver, Breakpoints } from "@angular/cdk/layout";
 import { Observable } from "rxjs";
 import { map, shareReplay } from "rxjs/operators";
-import { PdfViewerModule } from "ng2-pdf-viewer";
 
 @Component({
     selector: 'app-root',
@@ -23,7 +22,6 @@ import { PdfViewerModule } from "ng2-pdf-viewer";
         MatButtonModule,
         MatSidenavModule,
         MatListModule,
-        PdfViewerModule
     ],
     templateUrl: './app.component.html',
     styleUrl: './app.component.css'
