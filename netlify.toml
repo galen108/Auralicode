@@ -1,9 +1,15 @@
 [build]
-command = "npm run build"
+# The command that generates my static folders
+command = "ng build"
+
+# CRITICAL: This must point to the folder containing my index.html and route folders
+# Replace 'project-name with my actual project name from angular.json
 publish = "dist/site-static/browser"
 
 [[redirects]]
+# This ensures that if a user refreshes on /about, they don't get a 404.
+# Netlify will first look for a static folder/file (which I now have!)
+# If it doesn't find one, it falls back to index.html for Angular to handle.
 from = "/*"
-to = "/.netlify/functions/ssr" # The Netlify Angular runtime will create this
+to = "/index.html"
 status = 200
-force = false
